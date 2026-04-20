@@ -1,0 +1,44 @@
+# Python
+**pycache**/
+*.pyc
+*.pyo
+*.pyd
+*.pyc.*
+
+# Virtual Environments
+venv/
+env/
+.venv/
+
+# Environment Variables
+.env
+.env.*
+
+# ML Model Files
+saved_models/*.pkl
+
+# Datasets (if added later)
+*.csv
+*.tsv
+*.zip
+*.jsonl
+
+# Logs & Temp Files
+*.log
+*.tmp
+*.bak
+
+# IDE / Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+
+# Jupyter (optional)
+.ipynb_checkpoints/
