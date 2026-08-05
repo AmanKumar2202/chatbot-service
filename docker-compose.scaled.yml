@@ -1,0 +1,57 @@
+services:
+  response:
+    build:
+      context: .
+      args:
+        ARGOS_LANGUAGE_PAIRS: ${ARGOS_LANGUAGE_PAIRS:-}
+    environment:
+      SERVICE_API_KEY: ${SERVICE_API_KEY:?Set SERVICE_API_KEY in your shell or .env}
+      SERVICE_ROLE: general
+      RATE_LIMIT_STORAGE_URI: redis://redis:6379/1
+      WEB_CONCURRENCY: 5
+    ports:
+      - "8000:8000"
+    depends_on:
+      redis:
+        condition: service_healthy
+
+  rag:
+    build:
+      context: .
+      args:
+        ARGOS_LANGUAGE_PAIRS: ${ARGOS_LANGUAGE_PAIRS:-}
+    environment:
+      SERVICE_API_KEY: ${SERVICE_API_KEY:?Set SERVICE_API_KEY in your shell or .env}
+      SERVICE_ROLE: rag
+      RATE_LIMIT_STORAGE_URI: redis://redis:6379/1
+      RAG_CHROMA_HOST: chroma
+      RAG_CHROMA_PORT: 8000
+      RAG_WARMUP_ON_STARTUP: "true"
+      WEB_CONCURRENCY: 2
+    ports:
+      - "8002:8000"
+    depends_on:
+      redis:
+        condition: service_healthy
+      chroma:
+        condition: service_started
+
+  redis:
+    image: redis:7.4-alpine
+    command: ["redis-server", "--appendonly", "yes"]
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  chroma:
+    image: chromadb/chroma:1.4.1
+    environment:
+      IS_PERSISTENT: "TRUE"
+      PERSIST_DIRECTORY: /data
+    volumes:
+      - chroma-data:/data
+
+volumes:
+  chroma-data:

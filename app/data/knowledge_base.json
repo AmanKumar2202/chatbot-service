@@ -1,0 +1,92 @@
+{
+  "artificial intelligence": [
+    "Artificial intelligence uses algorithms to perform tasks that normally require human reasoning.",
+    "Machine learning, neural networks, and natural-language processing are major AI disciplines.",
+    "AI supports applications such as fraud detection, forecasting, and assistive technology.",
+    "Responsible AI development considers transparency, bias, privacy, and human oversight."
+  ],
+  "machine learning": [
+    "Machine learning builds predictive behavior from examples rather than fixed instructions alone.",
+    "Supervised, unsupervised, and reinforcement learning address different kinds of problems.",
+    "Data quality and representative evaluation strongly influence model reliability.",
+    "Models require monitoring because real-world data can change after deployment."
+  ],
+  "technology": [
+    "Technology has transformed communication, education, health care, and business operations.",
+    "Software, networks, electronics, and cloud systems form much of modern digital infrastructure.",
+    "Good technology design balances capability with accessibility, security, and maintainability.",
+    "Continuous research and engineering create new tools while reshaping existing work."
+  ],
+  "cars": [
+    "Cars are a widely used form of personal transportation and a major part of global logistics.",
+    "Modern vehicles combine mechanical systems with sensors, software, and safety electronics.",
+    "Electric vehicles reduce tailpipe emissions and change how transportation energy is supplied.",
+    "Vehicle design increasingly emphasizes efficiency, connectivity, and driver assistance."
+  ],
+  "software development": [
+    "Software development turns user needs into maintainable programs and services.",
+    "Testing, version control, code review, and automation improve delivery reliability.",
+    "Clear architecture helps teams change a system without creating unnecessary risk.",
+    "Successful software is shaped by feedback throughout design, implementation, and operation."
+  ],
+  "cybersecurity": [
+    "Cybersecurity protects systems, networks, and information from misuse and disruption.",
+    "Layered defenses combine identity controls, secure configuration, monitoring, and recovery plans.",
+    "Phishing and credential theft make user awareness an important part of security.",
+    "Regular patching and tested backups reduce the impact of common attacks."
+  ],
+  "cloud computing": [
+    "Cloud computing provides on-demand access to shared computing and storage resources.",
+    "Elastic capacity allows applications to adapt to changing traffic levels.",
+    "Managed services can reduce operational work but require careful cost and security governance.",
+    "Public, private, and hybrid cloud designs serve different organizational needs."
+  ],
+  "education": [
+    "Education develops knowledge, practical abilities, and critical thinking over time.",
+    "Active practice and timely feedback generally improve long-term learning.",
+    "Digital resources expand access while making media literacy increasingly important.",
+    "Inclusive teaching recognizes that learners bring different backgrounds and needs."
+  ],
+  "health": [
+    "Health is influenced by physical activity, nutrition, sleep, environment, and access to care.",
+    "Preventive care can identify risks before they develop into more serious conditions.",
+    "Public-health programs address wellbeing at both community and population levels.",
+    "Reliable medical decisions should be made with qualified health professionals."
+  ],
+  "climate change": [
+    "Climate change describes long-term shifts in temperature and weather patterns.",
+    "Human greenhouse-gas emissions are a major driver of current global warming.",
+    "Clean energy, efficiency, and ecosystem protection can reduce future emissions.",
+    "Adaptation helps communities prepare for heat, flooding, drought, and other impacts."
+  ],
+  "renewable energy": [
+    "Renewable energy comes from sources such as sunlight, wind, water, and geothermal heat.",
+    "Energy storage and modern grids help balance variable renewable generation.",
+    "Local geography and demand patterns influence the most suitable energy mix.",
+    "Efficiency measures complement renewable generation by reducing overall demand."
+  ],
+  "space exploration": [
+    "Space exploration uses robotic and crewed missions to study Earth and the wider universe.",
+    "Satellites provide communication, navigation, weather observation, and scientific data.",
+    "Mission design must manage distance, radiation, limited power, and extreme temperatures.",
+    "International and commercial partnerships increasingly shape space activity."
+  ],
+  "finance": [
+    "Finance concerns how individuals and organizations manage money, risk, and investment.",
+    "Diversification can reduce dependence on the performance of a single asset.",
+    "Interest rates and inflation affect borrowing, saving, and purchasing power.",
+    "Financial choices should reflect goals, time horizon, and tolerance for risk."
+  ],
+  "agriculture": [
+    "Agriculture supplies food, fibers, and other materials through crop and livestock production.",
+    "Soil health, water availability, climate, and biodiversity affect farm productivity.",
+    "Precision tools can help farmers use fertilizer, water, and energy more efficiently.",
+    "Sustainable practices aim to maintain production while protecting natural resources."
+  ],
+  "internet": [
+    "The internet connects independent networks through shared communication protocols.",
+    "Web services, email, messaging, and streaming operate on top of this infrastructure.",
+    "Encryption helps protect information as it moves between devices and services.",
+    "Reliable access supports education and commerce but remains unevenly distributed."
+  ]
+}

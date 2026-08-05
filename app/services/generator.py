@@ -1,157 +1,129 @@
+import json
 import random
 import re
-from collections import Counter
+from pathlib import Path
 
-KNOWLEDGE_BASE = {
-    "artificial intelligence": [
-        "Artificial intelligence involves machine learning, deep learning, and neural networks.",
-        "It is widely used in applications like chatbots, recommendation systems, and self-driving cars.",
-        "AI helps automate tasks and improves decision-making using data.",
-        "Companies use AI for data analysis, customer support, and predictive analytics."
+
+KNOWLEDGE_PATH = Path(__file__).resolve().parents[1] / "data" / "knowledge_base.json"
+KNOWLEDGE_BASE: dict[str, list[str]] = json.loads(KNOWLEDGE_PATH.read_text(encoding="utf-8"))
+
+INTENT_RESPONSES = {
+    "greeting": [
+        "Hello! What would you like help with today?",
+        "Hi there. I can draft a paragraph or a formal message for you.",
+        "Welcome! Tell me what you would like to write.",
+        "Hey! How can I help?",
+        "Good to hear from you. What shall we work on?",
     ],
-    "cars": [
-        "Cars are one of the most widely used modes of transportation in the world.",
-        "Modern cars include advanced technologies such as electric engines and autonomous driving systems.",
-        "They play a crucial role in daily commuting and logistics.",
-        "The automobile industry continues to innovate with eco-friendly solutions like electric vehicles."
+    "help": [
+        "I can generate a topic-based paragraph or draft a formal message. Try: 'write a paragraph about cybersecurity'.",
+        "Ask me for a paragraph on a topic, or a formal message to someone about a specific request.",
+        "I help with short informative paragraphs and professional messages. Tell me the topic or recipient and purpose.",
+        "Try 'tell me about renewable energy' or 'write a formal message to HR regarding leave'.",
+        "Describe what you want written and include the topic or the message recipient and reason.",
     ],
-    "technology": [
-        "Technology has transformed communication, education, and business operations.",
-        "It includes fields like software development, artificial intelligence, and cloud computing.",
-        "Modern technology enables automation and global connectivity.",
-        "Innovations in technology continue to shape the future of society."
-    ]
+    "error": [
+        "That seems to describe a problem. Please share what you tried and what went wrong.",
+        "I can help clarify the issue. What result did you expect, and what happened instead?",
+        "Please provide the error wording or a little more context so I can respond accurately.",
+        "Something sounds off. Could you describe the problem in one or two sentences?",
+        "Let's narrow it down: what action led to the error?",
+    ],
+    "bye": [
+        "Goodbye! Come back whenever you need help writing.",
+        "See you later!",
+        "Take care, and have a great day.",
+        "Thanks for chatting. Goodbye!",
+        "Until next time!",
+    ],
+    "clarify": [
+        "I'm not sure I understood. Could you rephrase that?",
+        "Could you add a little more detail so I can choose the right response?",
+        "I may have misunderstood. Are you asking for a paragraph or a formal message?",
+        "Please reword that request and include the topic or intended recipient.",
+        "I need a bit more context before I can answer confidently.",
+    ],
 }
 
-def detect_topic_category(topic: str):
-    topic = topic.lower()
 
-    for key in KNOWLEDGE_BASE:
-        if key in topic:
-            return key
+def intent_response(intent: str) -> str:
+    return random.choice(INTENT_RESPONSES[intent])
 
+
+def detect_topic_category(topic: str) -> str | None:
+    normalized = topic.casefold()
+    return next((key for key in KNOWLEDGE_BASE if key in normalized), None)
+
+
+def extract_topic(message: str) -> str | None:
+    patterns = [
+        r"\b(?:on|about|regarding)\b\s+(.+?)(?:[?.!]|$)",
+        r"\b(?:explain|describe|discuss)\b\s+(.+?)(?:[?.!]|$)",
+    ]
+    for pattern in patterns:
+        match = re.search(pattern, message.casefold())
+        if match:
+            return match.group(1).strip()
     return None
 
 
-def extract_topic(message: str):
-    match = re.search(r"(on|about) (.+)", message.lower())
-    return match.group(2) if match else "the topic"
-
-
-
 def generate_paragraph(topic: str) -> str:
-    topic_clean = topic.lower()
-    topic_cap = topic.capitalize()
-
-    intro = [
-        f"{topic_cap} is an important subject that plays a significant role in modern life.",
-        f"In today’s world, {topic_cap} has gained widespread importance.",
-        f"{topic_cap} is a rapidly growing field influencing many industries."
+    topic = topic.strip(" .?!")
+    display_topic = topic[0].upper() + topic[1:] if topic else "This topic"
+    introductions = [
+        f"{display_topic} is an important subject with a growing influence on modern life.",
+        f"Understanding {display_topic} helps explain several changes taking place today.",
+        f"{display_topic} connects practical decisions with broader social and technical developments.",
+        f"Interest in {display_topic} continues to grow across communities and industries.",
     ]
-
-    body_generic = [
-        f"It has evolved significantly over time and continues to impact various aspects of society.",
-        f"It contributes to innovation and development across multiple domains.",
-        f"Understanding {topic_cap} helps individuals stay informed and make better decisions."
+    bodies = [
+        "Its development creates useful opportunities as well as questions that require careful judgment.",
+        "The subject continues to evolve as research, experience, and public needs change.",
+        "A balanced understanding considers its practical benefits, limitations, and long-term effects.",
+        "Learning the core ideas makes it easier to evaluate new developments in this area.",
     ]
-
-    conclusion = [
-        f"In conclusion, {topic_cap} will continue to shape the future and remain highly relevant.",
-        f"Overall, {topic_cap} is a crucial field with growing importance.",
-        f"To sum up, {topic_cap} plays a vital role in modern development."
+    conclusions = [
+        f"Overall, {display_topic} will remain relevant as people adapt it to new challenges.",
+        f"In conclusion, thoughtful use of knowledge about {display_topic} can support better decisions.",
+        f"As the field develops, informed discussion of {display_topic} will become even more valuable.",
+        f"For these reasons, {display_topic} deserves continued attention and careful study.",
     ]
-
-    # Inject knowledge
-    category = detect_topic_category(topic_clean)
-    knowledge_sentences = []
-
-    if category:
-        knowledge_sentences = random.sample(KNOWLEDGE_BASE[category], 2)
-
-    paragraph = " ".join([
-        random.choice(intro),
-        *knowledge_sentences,  
-        random.choice(body_generic),
-        random.choice(body_generic),
-        random.choice(conclusion)
-    ])
-
-    return paragraph
+    category = detect_topic_category(topic)
+    facts = random.sample(KNOWLEDGE_BASE[category], 3) if category else []
+    return " ".join(
+        [random.choice(introductions), *facts, random.choice(bodies), random.choice(conclusions)]
+    )
 
 
-def extract_formal_details(message: str):
-    user_match = re.search(r"to (\w+)", message.lower())
-    action_match = re.search(r"to (.+)", message.lower())
+def extract_formal_details(message: str) -> tuple[str, str] | None:
+    match = re.search(
+        r"\bto\s+(?P<recipient>[\w.' -]+?)(?:\s+(?:for|regarding|about)\s+)(?P<action>.+?)(?:[?.!]|$)",
+        message,
+        flags=re.IGNORECASE,
+    )
+    if not match:
+        return None
+    recipient = match.group("recipient").strip().title()
+    action = match.group("action").strip()
+    return recipient, action[0].lower() + action[1:] if action else action
 
-    user = user_match.group(1) if user_match else "User"
-    action = action_match.group(1) if action_match else "complete the task"
 
-    return user.capitalize(), action
-
-
-def generate_formal_message(user: str, action: str) -> str:
+def generate_formal_message(recipient: str, action: str) -> str:
     templates = [
-        f"Dear {user},\n\nI hope you are doing well. I would like to request you to {action}. Your assistance in this matter would be greatly appreciated.\n\nThank you.\nBest regards.",
-        
-        f"Hello {user},\n\nI hope this message finds you well. I am writing to kindly ask you to {action}. Please let me know if any additional information is needed.\n\nSincerely.",
-        
-        f"Dear {user},\n\nI would like to formally request you to {action}. I appreciate your time and support regarding this matter.\n\nKind regards."
+        "Dear {recipient},\n\nI hope you are doing well. I am writing regarding {action}. "
+        "I would appreciate your assistance with this matter.\n\nThank you.\nBest regards,",
+        "Hello {recipient},\n\nI would like to contact you regarding {action}. Please let me "
+        "know if you need any further information.\n\nSincerely,",
+        "Dear {recipient},\n\nPlease accept this message as a formal request concerning {action}. "
+        "Thank you for your time and consideration.\n\nKind regards,",
+        "Dear {recipient},\n\nI am reaching out about {action}. I would be grateful if you could "
+        "review this request at your convenience.\n\nWith thanks,",
     ]
-
-    return random.choice(templates)
-
-
-def generate_humanized_formal_message(message: str) -> str:
-    recipient_match = re.search(r"(?:to|for)\s+([a-zA-Z][\w ]{0,30}?)(?:\s+(?:about|regarding|for|requesting|to)\s+|$)", message, re.I)
-    recipient = recipient_match.group(1).strip() if recipient_match else "there"
-    recipient = re.sub(r"^(my|the)\s+", "", recipient, flags=re.I).title()
-    if recipient.lower() == "hr":
-        recipient = "HR"
-    topic_match = re.search(r"(?:about|regarding|requesting)\s+(.+)", message, re.I)
-    if not topic_match:
-        topic_match = re.search(r"\bfor\s+(.+)", message, re.I)
-    topic = topic_match.group(1).strip(" .") if topic_match else "the matter we discussed"
-    return f"Subject: Regarding {topic.title()}\n\nDear {recipient},\n\nI hope you're doing well. I wanted to reach out regarding {topic}. I would appreciate your consideration and would be happy to provide any additional details you may need.\n\nThank you for your time and understanding.\n\nBest regards"
+    return random.choice(templates).format(recipient=recipient, action=action)
 
 
-def summarize_text(text: str, max_sentences: int = 3) -> str:
-    text = re.sub(r"\s+", " ", text).strip()
-    sentences = re.split(r"(?<=[.!?])\s+", text)
-    if len(sentences) <= max_sentences:
-        return text
-    words = re.findall(r"[a-zA-Z]{3,}", text.lower())
-    stop = {"the", "and", "that", "this", "with", "from", "have", "for", "are", "was", "were", "but", "not", "you", "your", "into", "their", "they"}
-    frequency = Counter(word for word in words if word not in stop)
-    scored = []
-    for index, sentence in enumerate(sentences):
-        tokens = re.findall(r"[a-zA-Z]{3,}", sentence.lower())
-        score = sum(frequency[token] for token in tokens) / max(len(tokens), 1)
-        scored.append((score, index, sentence))
-    selected = sorted(sorted(scored, reverse=True)[:max_sentences], key=lambda item: item[1])
-    return " ".join(item[2] for item in selected)
-
-
-def generate_natural_reply(message: str) -> str:
-    patterns = [
-        r"(?:telling them|saying|tell them|confirming(?: that)?|respond that|reply that)\s+(.+)",
-        r"(?:response|reply)\s+(?:to\s+)?(?:say|saying)\s+(.+)",
-    ]
-    content = ""
-    for pattern in patterns:
-        match = re.search(pattern, message, re.I)
-        if match:
-            content = match.group(1).strip(" .")
-            break
-    if not content and "conversation:" in message.lower():
-        content = message[message.lower().rfind("conversation:") + len("conversation:"):].split("Additional instruction:", 1)[0].strip().splitlines()[-1]
-        return f"Thanks for letting me know. Regarding your message — {content[:180]}"
-    if not content:
-        return "What would you like the reply to communicate? Add the key detail and I’ll draft it naturally."
-    if re.match(r"^(sounds?|tone|friendly|formal|confident|natural|short|concise|under\b|keep\b)", content, re.I):
-        return "What should the reply say? Share the message or key point, and I’ll apply that tone."
-    content = re.sub(r"\b[Ii] am\b", "I'm", content)
-    content = re.sub(r"\b[Ii] will\b", "I'll", content)
-    content = content[0].upper() + content[1:]
-    if "available" in content.lower() and any(word in message.lower() for word in ("friendly", "natural", "warm")):
-        return f"Sounds good! {content}."
-    return f"{content}."
+def formal_clarification() -> str:
+    return (
+        "Please include both the recipient and reason, for example: "
+        "'write a formal message to my manager regarding annual leave'."
+    )

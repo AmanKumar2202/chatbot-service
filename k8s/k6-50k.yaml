@@ -1,0 +1,28 @@
+apiVersion: k6.io/v1alpha1
+kind: TestRun
+metadata:
+  name: chatbot-50k
+spec:
+  parallelism: 20
+  script:
+    configMap:
+      name: chatbot-50k-script
+      file: users_50k.js
+  runner:
+    env:
+      - name: BASE_URL
+        value: http://chatbot-general
+      - name: TARGET_USERS
+        value: "50000"
+      - name: SERVICE_KEY
+        valueFrom:
+          secretKeyRef:
+            name: chatbot-secrets
+            key: service-api-key
+    resources:
+      requests:
+        cpu: "1"
+        memory: 2Gi
+      limits:
+        cpu: "4"
+        memory: 8Gi

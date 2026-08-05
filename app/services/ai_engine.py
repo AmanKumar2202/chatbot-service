@@ -1,69 +1,166 @@
-import random
-import re
+from dataclasses import dataclass
+import json
+from typing import Any
 
+from app.core.config import settings
 from app.ml.predictor import predict_intent
-from app.services.generator import extract_formal_details, extract_topic, generate_formal_message, generate_humanized_formal_message, generate_natural_reply, generate_paragraph, summarize_text
+from app.services.agents import (
+    CodingHelpAgent,
+    FormalWriterAgent,
+    GeneralQAAgent,
+    SmalltalkAgent,
+)
+from app.services.generator import intent_response
+from app.services.tools import TOOL_REGISTRY, extract_arguments
 
-RESPONSES = {
-    "greeting": ["Hey! How can I help you today?", "Hello! What would you like to work on?", "Hi there — what can I help with?"],
-    "help": ["I can draft formal messages, generate paragraphs, or help you shape a response. What do you need?", "Tell me what you are trying to do and I will guide you."],
-    "error": ["Share the error message and the relevant code or steps, and I will help narrow it down.", "What error are you seeing, and what did you expect to happen?"],
-    "bye": ["Take care! Message me whenever you need help.", "See you later!"],
+
+GENERAL_AGENT = GeneralQAAgent()
+FORMAL_AGENT = FormalWriterAgent()
+CODING_AGENT = CodingHelpAgent()
+SMALLTALK_AGENTS = {
+    intent: SmalltalkAgent(intent) for intent in ("greeting", "help", "error", "bye")
 }
 
-FALLBACKS = [
-    "I can help with writing, formal messages, and common questions. Could you add a little more detail?",
-    "I am not confident I understood that. Could you rephrase it with the outcome you want?",
-]
+AGENT_REGISTRY = {
+    "paragraph": GENERAL_AGENT,
+    "formal": FORMAL_AGENT,
+    "code_help": CODING_AGENT,
+    **SMALLTALK_AGENTS,
+}
+
+AGENT_OVERRIDES = {
+    "general_qa": (GENERAL_AGENT, "paragraph"),
+    "coding_help": (CODING_AGENT, "code_help"),
+    "formal_writer": (FORMAL_AGENT, "formal"),
+    "smalltalk": (SMALLTALK_AGENTS["help"], "help"),
+}
+
+FOLLOW_UP_PHRASES = {
+    "another one",
+    "tell me more",
+    "more please",
+    "continue",
+    "go on",
+    "what else",
+}
 
 
-def generate_reply(message: str, history: list | None = None) -> tuple[str, str, float]:
-    lowered = message.lower().strip()
-    if any(phrase in lowered for phrase in ("write a short reply", "generate a friendly", "draft a reply", "help me respond", "reply politely", "write a response", "generate a natural reply")):
-        return generate_natural_reply(message), "reply", 1.0
-    if any(phrase in lowered for phrase in ("summarize", "summary", "shorten this", "make this shorter")):
-        content = message.split(":", 1)[1] if ":" in message else re.sub(r"^(summarize|summary|shorten this|make this shorter)\s*", "", message, flags=re.I)
-        return summarize_text(content), "summarize", 1.0
-    if any(phrase in lowered for phrase in ("humanized", "formal mail", "formal email", "formal message")):
-        return generate_humanized_formal_message(message), "formal", 1.0
-    intent, confidence = predict_intent(message)
-    if confidence < 0.30:
-        return random.choice(FALLBACKS), "unknown", confidence
-    if intent == "paragraph":
-        return generate_paragraph(extract_topic(message)), intent, confidence
-    if intent == "formal":
-        recipient, action = extract_formal_details(message)
-        return generate_formal_message(recipient, action), intent, confidence
-    if intent == "reply":
-        return generate_natural_reply(message), intent, confidence
-    return random.choice(RESPONSES.get(intent, FALLBACKS)), intent, confidence
+def needs_history(message: str, agent_override: str | None = None) -> bool:
+    normalized = message.casefold().strip(" .?!")
+    if normalized in FOLLOW_UP_PHRASES:
+        return True
+    if agent_override == "general_qa":
+        return True
+    return any(
+        marker in normalized
+        for marker in ("paragraph", "tell me", "explain", "describe", "discuss")
+    ) and not any(preposition in normalized for preposition in (" about ", " on ", " regarding "))
 
 
-def generate_smart_replies(message: str, count: int = 3) -> tuple[list[str], str]:
-    intent, _ = predict_intent(message)
-    lowered = message.lower()
-    word_count = len(lowered.split())
-    if any(word in lowered for word in ("project", "github", "code", "integration")) and any(word in lowered for word in ("update", "complete", "completed", "pending", "pushed", "review")):
-        candidates = ["Thanks for the update. I'll review it shortly.", "Great progress — I'll check the latest changes.", "Noted. Please let me know when the review is complete."]
-    elif any(phrase in lowered for phrase in ("can you send", "could you send", "please send", "please share", "can you share")):
-        candidates = ["Sure, I'll send it shortly.", "Of course — I'll share it with you.", "I'll check and get back to you soon."]
-    elif "?" in message and any(word in lowered for word in ("free", "available", "meet", "dinner", "call")):
-        candidates = ["Yes, that works for me.", "Let me check and get back to you.", "I'm not available then. Can we choose another time?"]
-    elif "?" in message:
-        candidates = ["Yes, that sounds good.", "Let me check and get back to you.", "Could you share a little more detail?"]
-    elif any(word in lowered for word in ("sorry", "apolog")):
-        candidates = ["No worries at all.", "Thanks for letting me know.", "It's okay, I understand."]
-    elif word_count <= 12 and any(word in lowered for word in ("thank", "thanks")):
-        candidates = ["You're welcome!", "Happy to help.", "Anytime!"]
-    elif intent == "formal":
-        candidates = ["Thank you for the message. I'll review it.", "Noted with thanks. I'll get back to you shortly.", "I appreciate the update and will follow up soon."]
+@dataclass(frozen=True)
+class GeneratedReply:
+    text: str
+    intent: str
+    confidence: float
+    agent: str
+    tool_call: dict[str, Any] | None = None
+
+
+TOOL_RESULT_ACKNOWLEDGEMENTS = {
+    "thanks",
+    "thank you",
+    "great",
+    "okay",
+    "ok",
+    "done",
+    "what happened",
+    "did it work",
+}
+
+
+def _tool_result_reply(
+    message: str, history: list[dict[str, str]]
+) -> GeneratedReply | None:
+    if not history or history[-1].get("role") != "tool":
+        return None
+    result = history[-1].get("content", "").strip()
+    try:
+        payload = json.loads(result)
+    except (json.JSONDecodeError, TypeError):
+        payload = None
+    if isinstance(payload, dict) and payload.get("status") == "scheduled":
+        remind_at = payload.get("remind_at") or payload.get("remindAt")
+        text = (
+            f"Your reminder is scheduled for {remind_at}."
+            if remind_at
+            else "Your reminder has been scheduled."
+        )
+        return GeneratedReply(text, "tool_result", 1.0, "tool_router")
+    normalized = message.casefold().strip(" .?!")
+    explicit_confirmation_request = normalized.startswith("present the tool result")
+    if normalized not in TOOL_RESULT_ACKNOWLEDGEMENTS and not explicit_confirmation_request:
+        return None
+    status = payload.get("status") if isinstance(payload, dict) else None
+    failed = status in {"unsupported", "unavailable", "unparseable_time", "not_connected", "failed", "error"}
+    text = (
+        f"The requested action did not complete successfully. Result: {result}"
+        if failed
+        else (f"The requested action completed. Result: {result}" if result else "The requested action completed.")
+    )
+    return GeneratedReply(text, "tool_result", 1.0, "tool_router")
+
+
+def _tool_reply(intent: str, message: str, confidence: float) -> GeneratedReply:
+    extracted = extract_arguments(intent, message)
+    tool_call = {
+        "name": extracted.name,
+        "arguments": extracted.arguments,
+        "missing_arguments": extracted.missing_arguments,
+    }
+    if extracted.missing_arguments:
+        missing = ", ".join(extracted.missing_arguments)
+        text = f"I can prepare that action, but I still need: {missing}."
+    elif extracted.name == "set_reminder":
+        text = "Got it — I'll remind you about that."
     else:
-        candidates = {
-        "greeting": ["Hey! How are you?", "Hi, good to hear from you!", "Hello! What’s up?"],
-        "help": ["Of course, what do you need help with?", "Sure — send me the details.", "I’ll help however I can."],
-        "error": ["Can you share the error message?", "What happened exactly?", "Let’s take a look together."],
-        "bye": ["Talk to you later!", "Take care!", "See you soon."],
-        "formal": ["I’ll review it and get back to you.", "Thank you for the update.", "Please share any additional details."],
-        "paragraph": ["That’s interesting — tell me more.", "Thanks for sharing this.", "Could you explain that further?"],
-        }.get(intent, ["Sounds good!", "Thanks for letting me know.", "Can you tell me more?"])
-    return candidates[:count], intent
+        text = f"I'll help with that — {SmalltalkAgent.confirm_tool(extracted.name, extracted.arguments)}"
+    return GeneratedReply(text, intent, confidence, "tool_router", tool_call)
+
+
+def generate_reply(
+    message: str,
+    history: list[dict[str, str]],
+    agent_override: str | None = None,
+) -> GeneratedReply:
+    tool_result = _tool_result_reply(message, history)
+    if tool_result:
+        return tool_result
+
+    if agent_override in AGENT_OVERRIDES:
+        agent, intent = AGENT_OVERRIDES[agent_override]
+        return GeneratedReply(agent.handle(message, history), intent, 1.0, agent.name)
+
+    normalized = message.casefold().strip(" .?!")
+    if normalized in FOLLOW_UP_PHRASES:
+        text = GENERAL_AGENT.handle(message, history)
+        return GeneratedReply(text, "paragraph", 1.0, GENERAL_AGENT.name)
+
+    prediction = predict_intent(message)
+    if prediction.confidence < settings.confidence_threshold:
+        return GeneratedReply(
+            intent_response("clarify"),
+            "clarify",
+            prediction.confidence,
+            GENERAL_AGENT.name,
+        )
+
+    if prediction.intent in TOOL_REGISTRY:
+        return _tool_reply(prediction.intent, message, prediction.confidence)
+
+    agent = AGENT_REGISTRY.get(prediction.intent, GENERAL_AGENT)
+    return GeneratedReply(
+        agent.handle(message, history),
+        prediction.intent,
+        prediction.confidence,
+        agent.name,
+    )

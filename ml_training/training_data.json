@@ -1,2002 +1,2106 @@
-[
-  {
-    "text": "write a short reply telling them two days of leave",
-    "label": "reply"
-  },
-  {
-    "text": "write a short reply telling them a project delay",
-    "label": "reply"
-  },
-  {
-    "text": "write a short reply telling them dinner tomorrow evening",
-    "label": "reply"
-  },
-  {
-    "text": "write a short reply telling them being busy today but free this weekend",
-    "label": "reply"
-  },
-  {
-    "text": "write a short reply telling them document verification",
-    "label": "reply"
-  },
-  {
-    "text": "write a short reply telling them a meeting on Friday",
-    "label": "reply"
-  },
-  {
-    "text": "write a short reply telling them artificial intelligence",
-    "label": "reply"
-  },
-  {
-    "text": "write a short reply telling them software development",
-    "label": "reply"
-  },
-  {
-    "text": "write a short reply telling them remote work",
-    "label": "reply"
-  },
-  {
-    "text": "write a short reply telling them the environment",
-    "label": "reply"
-  },
-  {
-    "text": "generate a friendly and natural reply confirming two days of leave",
-    "label": "reply"
-  },
-  {
-    "text": "generate a friendly and natural reply confirming a project delay",
-    "label": "reply"
-  },
-  {
-    "text": "generate a friendly and natural reply confirming dinner tomorrow evening",
-    "label": "reply"
-  },
-  {
-    "text": "generate a friendly and natural reply confirming being busy today but free this weekend",
-    "label": "reply"
-  },
-  {
-    "text": "generate a friendly and natural reply confirming document verification",
-    "label": "reply"
-  },
-  {
-    "text": "generate a friendly and natural reply confirming a meeting on Friday",
-    "label": "reply"
-  },
-  {
-    "text": "generate a friendly and natural reply confirming artificial intelligence",
-    "label": "reply"
-  },
-  {
-    "text": "generate a friendly and natural reply confirming software development",
-    "label": "reply"
-  },
-  {
-    "text": "generate a friendly and natural reply confirming remote work",
-    "label": "reply"
-  },
-  {
-    "text": "generate a friendly and natural reply confirming the environment",
-    "label": "reply"
-  },
-  {
-    "text": "draft a reply saying two days of leave",
-    "label": "reply"
-  },
-  {
-    "text": "draft a reply saying a project delay",
-    "label": "reply"
-  },
-  {
-    "text": "draft a reply saying dinner tomorrow evening",
-    "label": "reply"
-  },
-  {
-    "text": "draft a reply saying being busy today but free this weekend",
-    "label": "reply"
-  },
-  {
-    "text": "draft a reply saying document verification",
-    "label": "reply"
-  },
-  {
-    "text": "draft a reply saying a meeting on Friday",
-    "label": "reply"
-  },
-  {
-    "text": "draft a reply saying artificial intelligence",
-    "label": "reply"
-  },
-  {
-    "text": "draft a reply saying software development",
-    "label": "reply"
-  },
-  {
-    "text": "draft a reply saying remote work",
-    "label": "reply"
-  },
-  {
-    "text": "draft a reply saying the environment",
-    "label": "reply"
-  },
-  {
-    "text": "help me respond that two days of leave",
-    "label": "reply"
-  },
-  {
-    "text": "help me respond that a project delay",
-    "label": "reply"
-  },
-  {
-    "text": "help me respond that dinner tomorrow evening",
-    "label": "reply"
-  },
-  {
-    "text": "help me respond that being busy today but free this weekend",
-    "label": "reply"
-  },
-  {
-    "text": "help me respond that document verification",
-    "label": "reply"
-  },
-  {
-    "text": "help me respond that a meeting on Friday",
-    "label": "reply"
-  },
-  {
-    "text": "help me respond that artificial intelligence",
-    "label": "reply"
-  },
-  {
-    "text": "help me respond that software development",
-    "label": "reply"
-  },
-  {
-    "text": "help me respond that remote work",
-    "label": "reply"
-  },
-  {
-    "text": "help me respond that the environment",
-    "label": "reply"
-  },
-  {
-    "text": "reply politely that two days of leave",
-    "label": "reply"
-  },
-  {
-    "text": "reply politely that a project delay",
-    "label": "reply"
-  },
-  {
-    "text": "reply politely that dinner tomorrow evening",
-    "label": "reply"
-  },
-  {
-    "text": "reply politely that being busy today but free this weekend",
-    "label": "reply"
-  },
-  {
-    "text": "reply politely that document verification",
-    "label": "reply"
-  },
-  {
-    "text": "reply politely that a meeting on Friday",
-    "label": "reply"
-  },
-  {
-    "text": "reply politely that artificial intelligence",
-    "label": "reply"
-  },
-  {
-    "text": "reply politely that software development",
-    "label": "reply"
-  },
-  {
-    "text": "reply politely that remote work",
-    "label": "reply"
-  },
-  {
-    "text": "reply politely that the environment",
-    "label": "reply"
-  },
-  {
-    "text": "write a response to tell them two days of leave",
-    "label": "reply"
-  },
-  {
-    "text": "write a response to tell them a project delay",
-    "label": "reply"
-  },
-  {
-    "text": "write a response to tell them dinner tomorrow evening",
-    "label": "reply"
-  },
-  {
-    "text": "write a response to tell them being busy today but free this weekend",
-    "label": "reply"
-  },
-  {
-    "text": "write a response to tell them document verification",
-    "label": "reply"
-  },
-  {
-    "text": "write a response to tell them a meeting on Friday",
-    "label": "reply"
-  },
-  {
-    "text": "write a response to tell them artificial intelligence",
-    "label": "reply"
-  },
-  {
-    "text": "write a response to tell them software development",
-    "label": "reply"
-  },
-  {
-    "text": "write a response to tell them remote work",
-    "label": "reply"
-  },
-  {
-    "text": "write a response to tell them the environment",
-    "label": "reply"
-  },
-  {
-    "text": "create a casual reply about two days of leave",
-    "label": "reply"
-  },
-  {
-    "text": "create a casual reply about a project delay",
-    "label": "reply"
-  },
-  {
-    "text": "create a casual reply about dinner tomorrow evening",
-    "label": "reply"
-  },
-  {
-    "text": "create a casual reply about being busy today but free this weekend",
-    "label": "reply"
-  },
-  {
-    "text": "create a casual reply about document verification",
-    "label": "reply"
-  },
-  {
-    "text": "create a casual reply about a meeting on Friday",
-    "label": "reply"
-  },
-  {
-    "text": "create a casual reply about artificial intelligence",
-    "label": "reply"
-  },
-  {
-    "text": "create a casual reply about software development",
-    "label": "reply"
-  },
-  {
-    "text": "create a casual reply about remote work",
-    "label": "reply"
-  },
-  {
-    "text": "create a casual reply about the environment",
-    "label": "reply"
-  },
-  {
-    "text": "respond by saying two days of leave",
-    "label": "reply"
-  },
-  {
-    "text": "respond by saying a project delay",
-    "label": "reply"
-  },
-  {
-    "text": "respond by saying dinner tomorrow evening",
-    "label": "reply"
-  },
-  {
-    "text": "respond by saying being busy today but free this weekend",
-    "label": "reply"
-  },
-  {
-    "text": "respond by saying document verification",
-    "label": "reply"
-  },
-  {
-    "text": "respond by saying a meeting on Friday",
-    "label": "reply"
-  },
-  {
-    "text": "respond by saying artificial intelligence",
-    "label": "reply"
-  },
-  {
-    "text": "respond by saying software development",
-    "label": "reply"
-  },
-  {
-    "text": "respond by saying remote work",
-    "label": "reply"
-  },
-  {
-    "text": "respond by saying the environment",
-    "label": "reply"
-  },
-  {
-    "text": "make a concise reply that says two days of leave",
-    "label": "reply"
-  },
-  {
-    "text": "make a concise reply that says a project delay",
-    "label": "reply"
-  },
-  {
-    "text": "make a concise reply that says dinner tomorrow evening",
-    "label": "reply"
-  },
-  {
-    "text": "make a concise reply that says being busy today but free this weekend",
-    "label": "reply"
-  },
-  {
-    "text": "make a concise reply that says document verification",
-    "label": "reply"
-  },
-  {
-    "text": "make a concise reply that says a meeting on Friday",
-    "label": "reply"
-  },
-  {
-    "text": "make a concise reply that says artificial intelligence",
-    "label": "reply"
-  },
-  {
-    "text": "make a concise reply that says software development",
-    "label": "reply"
-  },
-  {
-    "text": "make a concise reply that says remote work",
-    "label": "reply"
-  },
-  {
-    "text": "make a concise reply that says the environment",
-    "label": "reply"
-  },
-  {
-    "text": "write a warm response explaining two days of leave",
-    "label": "reply"
-  },
-  {
-    "text": "write a warm response explaining a project delay",
-    "label": "reply"
-  },
-  {
-    "text": "write a warm response explaining dinner tomorrow evening",
-    "label": "reply"
-  },
-  {
-    "text": "write a warm response explaining being busy today but free this weekend",
-    "label": "reply"
-  },
-  {
-    "text": "write a warm response explaining document verification",
-    "label": "reply"
-  },
-  {
-    "text": "write a warm response explaining a meeting on Friday",
-    "label": "reply"
-  },
-  {
-    "text": "write a warm response explaining artificial intelligence",
-    "label": "reply"
-  },
-  {
-    "text": "write a warm response explaining software development",
-    "label": "reply"
-  },
-  {
-    "text": "write a warm response explaining remote work",
-    "label": "reply"
-  },
-  {
-    "text": "write a warm response explaining the environment",
-    "label": "reply"
-  },
-  {
-    "text": "write a humanized formal email to my manager about two days of leave",
-    "label": "formal"
-  },
-  {
-    "text": "write a humanized formal email to my HR manager about a project delay",
-    "label": "formal"
-  },
-  {
-    "text": "write a humanized formal email to my team lead about dinner tomorrow evening",
-    "label": "formal"
-  },
-  {
-    "text": "write a humanized formal email to my client about being busy today but free this weekend",
-    "label": "formal"
-  },
-  {
-    "text": "write a humanized formal email to my professor about document verification",
-    "label": "formal"
-  },
-  {
-    "text": "write a humanized formal email to my colleague about a meeting on Friday",
-    "label": "formal"
-  },
-  {
-    "text": "write a humanized formal email to my manager about artificial intelligence",
-    "label": "formal"
-  },
-  {
-    "text": "write a humanized formal email to my HR manager about software development",
-    "label": "formal"
-  },
-  {
-    "text": "write a humanized formal email to my team lead about remote work",
-    "label": "formal"
-  },
-  {
-    "text": "write a humanized formal email to my client about the environment",
-    "label": "formal"
-  },
-  {
-    "text": "generate a formal message for manager regarding two days of leave",
-    "label": "formal"
-  },
-  {
-    "text": "generate a formal message for HR manager regarding a project delay",
-    "label": "formal"
-  },
-  {
-    "text": "generate a formal message for team lead regarding dinner tomorrow evening",
-    "label": "formal"
-  },
-  {
-    "text": "generate a formal message for client regarding being busy today but free this weekend",
-    "label": "formal"
-  },
-  {
-    "text": "generate a formal message for professor regarding document verification",
-    "label": "formal"
-  },
-  {
-    "text": "generate a formal message for colleague regarding a meeting on Friday",
-    "label": "formal"
-  },
-  {
-    "text": "generate a formal message for manager regarding artificial intelligence",
-    "label": "formal"
-  },
-  {
-    "text": "generate a formal message for HR manager regarding software development",
-    "label": "formal"
-  },
-  {
-    "text": "generate a formal message for team lead regarding remote work",
-    "label": "formal"
-  },
-  {
-    "text": "generate a formal message for client regarding the environment",
-    "label": "formal"
-  },
-  {
-    "text": "draft a professional mail to manager requesting two days of leave",
-    "label": "formal"
-  },
-  {
-    "text": "draft a professional mail to HR manager requesting a project delay",
-    "label": "formal"
-  },
-  {
-    "text": "draft a professional mail to team lead requesting dinner tomorrow evening",
-    "label": "formal"
-  },
-  {
-    "text": "draft a professional mail to client requesting being busy today but free this weekend",
-    "label": "formal"
-  },
-  {
-    "text": "draft a professional mail to professor requesting document verification",
-    "label": "formal"
-  },
-  {
-    "text": "draft a professional mail to colleague requesting a meeting on Friday",
-    "label": "formal"
-  },
-  {
-    "text": "draft a professional mail to manager requesting artificial intelligence",
-    "label": "formal"
-  },
-  {
-    "text": "draft a professional mail to HR manager requesting software development",
-    "label": "formal"
-  },
-  {
-    "text": "draft a professional mail to team lead requesting remote work",
-    "label": "formal"
-  },
-  {
-    "text": "draft a professional mail to client requesting the environment",
-    "label": "formal"
-  },
-  {
-    "text": "compose a polite business email for manager about two days of leave",
-    "label": "formal"
-  },
-  {
-    "text": "compose a polite business email for HR manager about a project delay",
-    "label": "formal"
-  },
-  {
-    "text": "compose a polite business email for team lead about dinner tomorrow evening",
-    "label": "formal"
-  },
-  {
-    "text": "compose a polite business email for client about being busy today but free this weekend",
-    "label": "formal"
-  },
-  {
-    "text": "compose a polite business email for professor about document verification",
-    "label": "formal"
-  },
-  {
-    "text": "compose a polite business email for colleague about a meeting on Friday",
-    "label": "formal"
-  },
-  {
-    "text": "compose a polite business email for manager about artificial intelligence",
-    "label": "formal"
-  },
-  {
-    "text": "compose a polite business email for HR manager about software development",
-    "label": "formal"
-  },
-  {
-    "text": "compose a polite business email for team lead about remote work",
-    "label": "formal"
-  },
-  {
-    "text": "compose a polite business email for client about the environment",
-    "label": "formal"
-  },
-  {
-    "text": "write an official message to manager concerning two days of leave",
-    "label": "formal"
-  },
-  {
-    "text": "write an official message to HR manager concerning a project delay",
-    "label": "formal"
-  },
-  {
-    "text": "write an official message to team lead concerning dinner tomorrow evening",
-    "label": "formal"
-  },
-  {
-    "text": "write an official message to client concerning being busy today but free this weekend",
-    "label": "formal"
-  },
-  {
-    "text": "write an official message to professor concerning document verification",
-    "label": "formal"
-  },
-  {
-    "text": "write an official message to colleague concerning a meeting on Friday",
-    "label": "formal"
-  },
-  {
-    "text": "write an official message to manager concerning artificial intelligence",
-    "label": "formal"
-  },
-  {
-    "text": "write an official message to HR manager concerning software development",
-    "label": "formal"
-  },
-  {
-    "text": "write an official message to team lead concerning remote work",
-    "label": "formal"
-  },
-  {
-    "text": "write an official message to client concerning the environment",
-    "label": "formal"
-  },
-  {
-    "text": "create a natural professional email to manager for two days of leave",
-    "label": "formal"
-  },
-  {
-    "text": "create a natural professional email to HR manager for a project delay",
-    "label": "formal"
-  },
-  {
-    "text": "create a natural professional email to team lead for dinner tomorrow evening",
-    "label": "formal"
-  },
-  {
-    "text": "create a natural professional email to client for being busy today but free this weekend",
-    "label": "formal"
-  },
-  {
-    "text": "create a natural professional email to professor for document verification",
-    "label": "formal"
-  },
-  {
-    "text": "create a natural professional email to colleague for a meeting on Friday",
-    "label": "formal"
-  },
-  {
-    "text": "create a natural professional email to manager for artificial intelligence",
-    "label": "formal"
-  },
-  {
-    "text": "create a natural professional email to HR manager for software development",
-    "label": "formal"
-  },
-  {
-    "text": "create a natural professional email to team lead for remote work",
-    "label": "formal"
-  },
-  {
-    "text": "create a natural professional email to client for the environment",
-    "label": "formal"
-  },
-  {
-    "text": "summarize this long text",
-    "label": "summarize"
-  },
-  {
-    "text": "please summarize this long text",
-    "label": "summarize"
-  },
-  {
-    "text": "summarize this long text please",
-    "label": "summarize"
-  },
-  {
-    "text": "assistant, summarize this long text",
-    "label": "summarize"
-  },
-  {
-    "text": "could you respond to: summarize this long text",
-    "label": "summarize"
-  },
-  {
-    "text": "I want to say summarize this long text",
-    "label": "summarize"
-  },
-  {
-    "text": "summarize this long text right now",
-    "label": "summarize"
-  },
-  {
-    "text": "can we start with summarize this long text",
-    "label": "summarize"
-  },
-  {
-    "text": "make this passage shorter",
-    "label": "summarize"
-  },
-  {
-    "text": "please make this passage shorter",
-    "label": "summarize"
-  },
-  {
-    "text": "make this passage shorter please",
-    "label": "summarize"
-  },
-  {
-    "text": "assistant, make this passage shorter",
-    "label": "summarize"
-  },
-  {
-    "text": "could you respond to: make this passage shorter",
-    "label": "summarize"
-  },
-  {
-    "text": "I want to say make this passage shorter",
-    "label": "summarize"
-  },
-  {
-    "text": "make this passage shorter right now",
-    "label": "summarize"
-  },
-  {
-    "text": "can we start with make this passage shorter",
-    "label": "summarize"
-  },
-  {
-    "text": "give me a concise summary",
-    "label": "summarize"
-  },
-  {
-    "text": "please give me a concise summary",
-    "label": "summarize"
-  },
-  {
-    "text": "give me a concise summary please",
-    "label": "summarize"
-  },
-  {
-    "text": "assistant, give me a concise summary",
-    "label": "summarize"
-  },
-  {
-    "text": "could you respond to: give me a concise summary",
-    "label": "summarize"
-  },
-  {
-    "text": "I want to say give me a concise summary",
-    "label": "summarize"
-  },
-  {
-    "text": "give me a concise summary right now",
-    "label": "summarize"
-  },
-  {
-    "text": "can we start with give me a concise summary",
-    "label": "summarize"
-  },
-  {
-    "text": "shorten this into three sentences",
-    "label": "summarize"
-  },
-  {
-    "text": "please shorten this into three sentences",
-    "label": "summarize"
-  },
-  {
-    "text": "shorten this into three sentences please",
-    "label": "summarize"
-  },
-  {
-    "text": "assistant, shorten this into three sentences",
-    "label": "summarize"
-  },
-  {
-    "text": "could you respond to: shorten this into three sentences",
-    "label": "summarize"
-  },
-  {
-    "text": "I want to say shorten this into three sentences",
-    "label": "summarize"
-  },
-  {
-    "text": "shorten this into three sentences right now",
-    "label": "summarize"
-  },
-  {
-    "text": "can we start with shorten this into three sentences",
-    "label": "summarize"
-  },
-  {
-    "text": "extract the main points from this text",
-    "label": "summarize"
-  },
-  {
-    "text": "please extract the main points from this text",
-    "label": "summarize"
-  },
-  {
-    "text": "extract the main points from this text please",
-    "label": "summarize"
-  },
-  {
-    "text": "assistant, extract the main points from this text",
-    "label": "summarize"
-  },
-  {
-    "text": "could you respond to: extract the main points from this text",
-    "label": "summarize"
-  },
-  {
-    "text": "I want to say extract the main points from this text",
-    "label": "summarize"
-  },
-  {
-    "text": "extract the main points from this text right now",
-    "label": "summarize"
-  },
-  {
-    "text": "can we start with extract the main points from this text",
-    "label": "summarize"
-  },
-  {
-    "text": "summarise the following conversation",
-    "label": "summarize"
-  },
-  {
-    "text": "please summarise the following conversation",
-    "label": "summarize"
-  },
-  {
-    "text": "summarise the following conversation please",
-    "label": "summarize"
-  },
-  {
-    "text": "assistant, summarise the following conversation",
-    "label": "summarize"
-  },
-  {
-    "text": "could you respond to: summarise the following conversation",
-    "label": "summarize"
-  },
-  {
-    "text": "I want to say summarise the following conversation",
-    "label": "summarize"
-  },
-  {
-    "text": "summarise the following conversation right now",
-    "label": "summarize"
-  },
-  {
-    "text": "can we start with summarise the following conversation",
-    "label": "summarize"
-  },
-  {
-    "text": "provide a brief overview",
-    "label": "summarize"
-  },
-  {
-    "text": "please provide a brief overview",
-    "label": "summarize"
-  },
-  {
-    "text": "provide a brief overview please",
-    "label": "summarize"
-  },
-  {
-    "text": "assistant, provide a brief overview",
-    "label": "summarize"
-  },
-  {
-    "text": "could you respond to: provide a brief overview",
-    "label": "summarize"
-  },
-  {
-    "text": "I want to say provide a brief overview",
-    "label": "summarize"
-  },
-  {
-    "text": "provide a brief overview right now",
-    "label": "summarize"
-  },
-  {
-    "text": "can we start with provide a brief overview",
-    "label": "summarize"
-  },
-  {
-    "text": "turn this long content into a short summary",
-    "label": "summarize"
-  },
-  {
-    "text": "please turn this long content into a short summary",
-    "label": "summarize"
-  },
-  {
-    "text": "turn this long content into a short summary please",
-    "label": "summarize"
-  },
-  {
-    "text": "assistant, turn this long content into a short summary",
-    "label": "summarize"
-  },
-  {
-    "text": "could you respond to: turn this long content into a short summary",
-    "label": "summarize"
-  },
-  {
-    "text": "I want to say turn this long content into a short summary",
-    "label": "summarize"
-  },
-  {
-    "text": "turn this long content into a short summary right now",
-    "label": "summarize"
-  },
-  {
-    "text": "can we start with turn this long content into a short summary",
-    "label": "summarize"
-  },
-  {
-    "text": "what are the key points in this passage",
-    "label": "summarize"
-  },
-  {
-    "text": "please what are the key points in this passage",
-    "label": "summarize"
-  },
-  {
-    "text": "what are the key points in this passage please",
-    "label": "summarize"
-  },
-  {
-    "text": "assistant, what are the key points in this passage",
-    "label": "summarize"
-  },
-  {
-    "text": "could you respond to: what are the key points in this passage",
-    "label": "summarize"
-  },
-  {
-    "text": "I want to say what are the key points in this passage",
-    "label": "summarize"
-  },
-  {
-    "text": "what are the key points in this passage right now",
-    "label": "summarize"
-  },
-  {
-    "text": "can we start with what are the key points in this passage",
-    "label": "summarize"
-  },
-  {
-    "text": "condense this text",
-    "label": "summarize"
-  },
-  {
-    "text": "please condense this text",
-    "label": "summarize"
-  },
-  {
-    "text": "condense this text please",
-    "label": "summarize"
-  },
-  {
-    "text": "assistant, condense this text",
-    "label": "summarize"
-  },
-  {
-    "text": "could you respond to: condense this text",
-    "label": "summarize"
-  },
-  {
-    "text": "I want to say condense this text",
-    "label": "summarize"
-  },
-  {
-    "text": "condense this text right now",
-    "label": "summarize"
-  },
-  {
-    "text": "can we start with condense this text",
-    "label": "summarize"
-  },
-  {
-    "text": "write a paragraph about two days of leave",
-    "label": "paragraph"
-  },
-  {
-    "text": "write a paragraph about a project delay",
-    "label": "paragraph"
-  },
-  {
-    "text": "write a paragraph about dinner tomorrow evening",
-    "label": "paragraph"
-  },
-  {
-    "text": "write a paragraph about being busy today but free this weekend",
-    "label": "paragraph"
-  },
-  {
-    "text": "write a paragraph about document verification",
-    "label": "paragraph"
-  },
-  {
-    "text": "write a paragraph about a meeting on Friday",
-    "label": "paragraph"
-  },
-  {
-    "text": "write a paragraph about artificial intelligence",
-    "label": "paragraph"
-  },
-  {
-    "text": "write a paragraph about software development",
-    "label": "paragraph"
-  },
-  {
-    "text": "write a paragraph about remote work",
-    "label": "paragraph"
-  },
-  {
-    "text": "write a paragraph about the environment",
-    "label": "paragraph"
-  },
-  {
-    "text": "explain two days of leave in a paragraph",
-    "label": "paragraph"
-  },
-  {
-    "text": "explain a project delay in a paragraph",
-    "label": "paragraph"
-  },
-  {
-    "text": "explain dinner tomorrow evening in a paragraph",
-    "label": "paragraph"
-  },
-  {
-    "text": "explain being busy today but free this weekend in a paragraph",
-    "label": "paragraph"
-  },
-  {
-    "text": "explain document verification in a paragraph",
-    "label": "paragraph"
-  },
-  {
-    "text": "explain a meeting on Friday in a paragraph",
-    "label": "paragraph"
-  },
-  {
-    "text": "explain artificial intelligence in a paragraph",
-    "label": "paragraph"
-  },
-  {
-    "text": "explain software development in a paragraph",
-    "label": "paragraph"
-  },
-  {
-    "text": "explain remote work in a paragraph",
-    "label": "paragraph"
-  },
-  {
-    "text": "explain the environment in a paragraph",
-    "label": "paragraph"
-  },
-  {
-    "text": "generate informative content on two days of leave",
-    "label": "paragraph"
-  },
-  {
-    "text": "generate informative content on a project delay",
-    "label": "paragraph"
-  },
-  {
-    "text": "generate informative content on dinner tomorrow evening",
-    "label": "paragraph"
-  },
-  {
-    "text": "generate informative content on being busy today but free this weekend",
-    "label": "paragraph"
-  },
-  {
-    "text": "generate informative content on document verification",
-    "label": "paragraph"
-  },
-  {
-    "text": "generate informative content on a meeting on Friday",
-    "label": "paragraph"
-  },
-  {
-    "text": "generate informative content on artificial intelligence",
-    "label": "paragraph"
-  },
-  {
-    "text": "generate informative content on software development",
-    "label": "paragraph"
-  },
-  {
-    "text": "generate informative content on remote work",
-    "label": "paragraph"
-  },
-  {
-    "text": "generate informative content on the environment",
-    "label": "paragraph"
-  },
-  {
-    "text": "create a short article about two days of leave",
-    "label": "paragraph"
-  },
-  {
-    "text": "create a short article about a project delay",
-    "label": "paragraph"
-  },
-  {
-    "text": "create a short article about dinner tomorrow evening",
-    "label": "paragraph"
-  },
-  {
-    "text": "create a short article about being busy today but free this weekend",
-    "label": "paragraph"
-  },
-  {
-    "text": "create a short article about document verification",
-    "label": "paragraph"
-  },
-  {
-    "text": "create a short article about a meeting on Friday",
-    "label": "paragraph"
-  },
-  {
-    "text": "create a short article about artificial intelligence",
-    "label": "paragraph"
-  },
-  {
-    "text": "create a short article about software development",
-    "label": "paragraph"
-  },
-  {
-    "text": "create a short article about remote work",
-    "label": "paragraph"
-  },
-  {
-    "text": "create a short article about the environment",
-    "label": "paragraph"
-  },
-  {
-    "text": "describe two days of leave clearly",
-    "label": "paragraph"
-  },
-  {
-    "text": "describe a project delay clearly",
-    "label": "paragraph"
-  },
-  {
-    "text": "describe dinner tomorrow evening clearly",
-    "label": "paragraph"
-  },
-  {
-    "text": "describe being busy today but free this weekend clearly",
-    "label": "paragraph"
-  },
-  {
-    "text": "describe document verification clearly",
-    "label": "paragraph"
-  },
-  {
-    "text": "describe a meeting on Friday clearly",
-    "label": "paragraph"
-  },
-  {
-    "text": "describe artificial intelligence clearly",
-    "label": "paragraph"
-  },
-  {
-    "text": "describe software development clearly",
-    "label": "paragraph"
-  },
-  {
-    "text": "describe remote work clearly",
-    "label": "paragraph"
-  },
-  {
-    "text": "describe the environment clearly",
-    "label": "paragraph"
-  },
-  {
-    "text": "write an overview of two days of leave",
-    "label": "paragraph"
-  },
-  {
-    "text": "write an overview of a project delay",
-    "label": "paragraph"
-  },
-  {
-    "text": "write an overview of dinner tomorrow evening",
-    "label": "paragraph"
-  },
-  {
-    "text": "write an overview of being busy today but free this weekend",
-    "label": "paragraph"
-  },
-  {
-    "text": "write an overview of document verification",
-    "label": "paragraph"
-  },
-  {
-    "text": "write an overview of a meeting on Friday",
-    "label": "paragraph"
-  },
-  {
-    "text": "write an overview of artificial intelligence",
-    "label": "paragraph"
-  },
-  {
-    "text": "write an overview of software development",
-    "label": "paragraph"
-  },
-  {
-    "text": "write an overview of remote work",
-    "label": "paragraph"
-  },
-  {
-    "text": "write an overview of the environment",
-    "label": "paragraph"
-  },
-  {
-    "text": "hello",
-    "label": "greeting"
-  },
-  {
-    "text": "please hello",
-    "label": "greeting"
-  },
-  {
-    "text": "hello please",
-    "label": "greeting"
-  },
-  {
-    "text": "assistant, hello",
-    "label": "greeting"
-  },
-  {
-    "text": "could you respond to: hello",
-    "label": "greeting"
-  },
-  {
-    "text": "I want to say hello",
-    "label": "greeting"
-  },
-  {
-    "text": "hello right now",
-    "label": "greeting"
-  },
-  {
-    "text": "can we start with hello",
-    "label": "greeting"
-  },
-  {
-    "text": "hi there",
-    "label": "greeting"
-  },
-  {
-    "text": "please hi there",
-    "label": "greeting"
-  },
-  {
-    "text": "hi there please",
-    "label": "greeting"
-  },
-  {
-    "text": "assistant, hi there",
-    "label": "greeting"
-  },
-  {
-    "text": "could you respond to: hi there",
-    "label": "greeting"
-  },
-  {
-    "text": "I want to say hi there",
-    "label": "greeting"
-  },
-  {
-    "text": "hi there right now",
-    "label": "greeting"
-  },
-  {
-    "text": "can we start with hi there",
-    "label": "greeting"
-  },
-  {
-    "text": "hey assistant",
-    "label": "greeting"
-  },
-  {
-    "text": "please hey assistant",
-    "label": "greeting"
-  },
-  {
-    "text": "hey assistant please",
-    "label": "greeting"
-  },
-  {
-    "text": "assistant, hey assistant",
-    "label": "greeting"
-  },
-  {
-    "text": "could you respond to: hey assistant",
-    "label": "greeting"
-  },
-  {
-    "text": "I want to say hey assistant",
-    "label": "greeting"
-  },
-  {
-    "text": "hey assistant right now",
-    "label": "greeting"
-  },
-  {
-    "text": "can we start with hey assistant",
-    "label": "greeting"
-  },
-  {
-    "text": "good morning",
-    "label": "greeting"
-  },
-  {
-    "text": "please good morning",
-    "label": "greeting"
-  },
-  {
-    "text": "good morning please",
-    "label": "greeting"
-  },
-  {
-    "text": "assistant, good morning",
-    "label": "greeting"
-  },
-  {
-    "text": "could you respond to: good morning",
-    "label": "greeting"
-  },
-  {
-    "text": "I want to say good morning",
-    "label": "greeting"
-  },
-  {
-    "text": "good morning right now",
-    "label": "greeting"
-  },
-  {
-    "text": "can we start with good morning",
-    "label": "greeting"
-  },
-  {
-    "text": "good evening",
-    "label": "greeting"
-  },
-  {
-    "text": "please good evening",
-    "label": "greeting"
-  },
-  {
-    "text": "good evening please",
-    "label": "greeting"
-  },
-  {
-    "text": "assistant, good evening",
-    "label": "greeting"
-  },
-  {
-    "text": "could you respond to: good evening",
-    "label": "greeting"
-  },
-  {
-    "text": "I want to say good evening",
-    "label": "greeting"
-  },
-  {
-    "text": "good evening right now",
-    "label": "greeting"
-  },
-  {
-    "text": "can we start with good evening",
-    "label": "greeting"
-  },
-  {
-    "text": "how are you",
-    "label": "greeting"
-  },
-  {
-    "text": "please how are you",
-    "label": "greeting"
-  },
-  {
-    "text": "how are you please",
-    "label": "greeting"
-  },
-  {
-    "text": "assistant, how are you",
-    "label": "greeting"
-  },
-  {
-    "text": "could you respond to: how are you",
-    "label": "greeting"
-  },
-  {
-    "text": "I want to say how are you",
-    "label": "greeting"
-  },
-  {
-    "text": "how are you right now",
-    "label": "greeting"
-  },
-  {
-    "text": "can we start with how are you",
-    "label": "greeting"
-  },
-  {
-    "text": "nice to meet you",
-    "label": "greeting"
-  },
-  {
-    "text": "please nice to meet you",
-    "label": "greeting"
-  },
-  {
-    "text": "nice to meet you please",
-    "label": "greeting"
-  },
-  {
-    "text": "assistant, nice to meet you",
-    "label": "greeting"
-  },
-  {
-    "text": "could you respond to: nice to meet you",
-    "label": "greeting"
-  },
-  {
-    "text": "I want to say nice to meet you",
-    "label": "greeting"
-  },
-  {
-    "text": "nice to meet you right now",
-    "label": "greeting"
-  },
-  {
-    "text": "can we start with nice to meet you",
-    "label": "greeting"
-  },
-  {
-    "text": "can you help me",
-    "label": "help"
-  },
-  {
-    "text": "please can you help me",
-    "label": "help"
-  },
-  {
-    "text": "can you help me please",
-    "label": "help"
-  },
-  {
-    "text": "assistant, can you help me",
-    "label": "help"
-  },
-  {
-    "text": "could you respond to: can you help me",
-    "label": "help"
-  },
-  {
-    "text": "I want to say can you help me",
-    "label": "help"
-  },
-  {
-    "text": "can you help me right now",
-    "label": "help"
-  },
-  {
-    "text": "can we start with can you help me",
-    "label": "help"
-  },
-  {
-    "text": "I need assistance",
-    "label": "help"
-  },
-  {
-    "text": "please I need assistance",
-    "label": "help"
-  },
-  {
-    "text": "I need assistance please",
-    "label": "help"
-  },
-  {
-    "text": "assistant, I need assistance",
-    "label": "help"
-  },
-  {
-    "text": "could you respond to: I need assistance",
-    "label": "help"
-  },
-  {
-    "text": "I want to say I need assistance",
-    "label": "help"
-  },
-  {
-    "text": "I need assistance right now",
-    "label": "help"
-  },
-  {
-    "text": "can we start with I need assistance",
-    "label": "help"
-  },
-  {
-    "text": "what can you do",
-    "label": "help"
-  },
-  {
-    "text": "please what can you do",
-    "label": "help"
-  },
-  {
-    "text": "what can you do please",
-    "label": "help"
-  },
-  {
-    "text": "assistant, what can you do",
-    "label": "help"
-  },
-  {
-    "text": "could you respond to: what can you do",
-    "label": "help"
-  },
-  {
-    "text": "I want to say what can you do",
-    "label": "help"
-  },
-  {
-    "text": "what can you do right now",
-    "label": "help"
-  },
-  {
-    "text": "can we start with what can you do",
-    "label": "help"
-  },
-  {
-    "text": "help me write something",
-    "label": "help"
-  },
-  {
-    "text": "please help me write something",
-    "label": "help"
-  },
-  {
-    "text": "help me write something please",
-    "label": "help"
-  },
-  {
-    "text": "assistant, help me write something",
-    "label": "help"
-  },
-  {
-    "text": "could you respond to: help me write something",
-    "label": "help"
-  },
-  {
-    "text": "I want to say help me write something",
-    "label": "help"
-  },
-  {
-    "text": "help me write something right now",
-    "label": "help"
-  },
-  {
-    "text": "can we start with help me write something",
-    "label": "help"
-  },
-  {
-    "text": "I need some guidance",
-    "label": "help"
-  },
-  {
-    "text": "please I need some guidance",
-    "label": "help"
-  },
-  {
-    "text": "I need some guidance please",
-    "label": "help"
-  },
-  {
-    "text": "assistant, I need some guidance",
-    "label": "help"
-  },
-  {
-    "text": "could you respond to: I need some guidance",
-    "label": "help"
-  },
-  {
-    "text": "I want to say I need some guidance",
-    "label": "help"
-  },
-  {
-    "text": "I need some guidance right now",
-    "label": "help"
-  },
-  {
-    "text": "can we start with I need some guidance",
-    "label": "help"
-  },
-  {
-    "text": "show me your features",
-    "label": "help"
-  },
-  {
-    "text": "please show me your features",
-    "label": "help"
-  },
-  {
-    "text": "show me your features please",
-    "label": "help"
-  },
-  {
-    "text": "assistant, show me your features",
-    "label": "help"
-  },
-  {
-    "text": "could you respond to: show me your features",
-    "label": "help"
-  },
-  {
-    "text": "I want to say show me your features",
-    "label": "help"
-  },
-  {
-    "text": "show me your features right now",
-    "label": "help"
-  },
-  {
-    "text": "can we start with show me your features",
-    "label": "help"
-  },
-  {
-    "text": "I have an error",
-    "label": "error"
-  },
-  {
-    "text": "please I have an error",
-    "label": "error"
-  },
-  {
-    "text": "I have an error please",
-    "label": "error"
-  },
-  {
-    "text": "assistant, I have an error",
-    "label": "error"
-  },
-  {
-    "text": "could you respond to: I have an error",
-    "label": "error"
-  },
-  {
-    "text": "I want to say I have an error",
-    "label": "error"
-  },
-  {
-    "text": "I have an error right now",
-    "label": "error"
-  },
-  {
-    "text": "can we start with I have an error",
-    "label": "error"
-  },
-  {
-    "text": "help me fix a bug",
-    "label": "error"
-  },
-  {
-    "text": "please help me fix a bug",
-    "label": "error"
-  },
-  {
-    "text": "help me fix a bug please",
-    "label": "error"
-  },
-  {
-    "text": "assistant, help me fix a bug",
-    "label": "error"
-  },
-  {
-    "text": "could you respond to: help me fix a bug",
-    "label": "error"
-  },
-  {
-    "text": "I want to say help me fix a bug",
-    "label": "error"
-  },
-  {
-    "text": "help me fix a bug right now",
-    "label": "error"
-  },
-  {
-    "text": "can we start with help me fix a bug",
-    "label": "error"
-  },
-  {
-    "text": "my code is not working",
-    "label": "error"
-  },
-  {
-    "text": "please my code is not working",
-    "label": "error"
-  },
-  {
-    "text": "my code is not working please",
-    "label": "error"
-  },
-  {
-    "text": "assistant, my code is not working",
-    "label": "error"
-  },
-  {
-    "text": "could you respond to: my code is not working",
-    "label": "error"
-  },
-  {
-    "text": "I want to say my code is not working",
-    "label": "error"
-  },
-  {
-    "text": "my code is not working right now",
-    "label": "error"
-  },
-  {
-    "text": "can we start with my code is not working",
-    "label": "error"
-  },
-  {
-    "text": "the application crashed",
-    "label": "error"
-  },
-  {
-    "text": "please the application crashed",
-    "label": "error"
-  },
-  {
-    "text": "the application crashed please",
-    "label": "error"
-  },
-  {
-    "text": "assistant, the application crashed",
-    "label": "error"
-  },
-  {
-    "text": "could you respond to: the application crashed",
-    "label": "error"
-  },
-  {
-    "text": "I want to say the application crashed",
-    "label": "error"
-  },
-  {
-    "text": "the application crashed right now",
-    "label": "error"
-  },
-  {
-    "text": "can we start with the application crashed",
-    "label": "error"
-  },
-  {
-    "text": "I am facing an issue",
-    "label": "error"
-  },
-  {
-    "text": "please I am facing an issue",
-    "label": "error"
-  },
-  {
-    "text": "I am facing an issue please",
-    "label": "error"
-  },
-  {
-    "text": "assistant, I am facing an issue",
-    "label": "error"
-  },
-  {
-    "text": "could you respond to: I am facing an issue",
-    "label": "error"
-  },
-  {
-    "text": "I want to say I am facing an issue",
-    "label": "error"
-  },
-  {
-    "text": "I am facing an issue right now",
-    "label": "error"
-  },
-  {
-    "text": "can we start with I am facing an issue",
-    "label": "error"
-  },
-  {
-    "text": "debug this problem",
-    "label": "error"
-  },
-  {
-    "text": "please debug this problem",
-    "label": "error"
-  },
-  {
-    "text": "debug this problem please",
-    "label": "error"
-  },
-  {
-    "text": "assistant, debug this problem",
-    "label": "error"
-  },
-  {
-    "text": "could you respond to: debug this problem",
-    "label": "error"
-  },
-  {
-    "text": "I want to say debug this problem",
-    "label": "error"
-  },
-  {
-    "text": "debug this problem right now",
-    "label": "error"
-  },
-  {
-    "text": "can we start with debug this problem",
-    "label": "error"
-  },
-  {
-    "text": "goodbye",
-    "label": "bye"
-  },
-  {
-    "text": "please goodbye",
-    "label": "bye"
-  },
-  {
-    "text": "goodbye please",
-    "label": "bye"
-  },
-  {
-    "text": "assistant, goodbye",
-    "label": "bye"
-  },
-  {
-    "text": "could you respond to: goodbye",
-    "label": "bye"
-  },
-  {
-    "text": "I want to say goodbye",
-    "label": "bye"
-  },
-  {
-    "text": "goodbye right now",
-    "label": "bye"
-  },
-  {
-    "text": "can we start with goodbye",
-    "label": "bye"
-  },
-  {
-    "text": "see you later",
-    "label": "bye"
-  },
-  {
-    "text": "please see you later",
-    "label": "bye"
-  },
-  {
-    "text": "see you later please",
-    "label": "bye"
-  },
-  {
-    "text": "assistant, see you later",
-    "label": "bye"
-  },
-  {
-    "text": "could you respond to: see you later",
-    "label": "bye"
-  },
-  {
-    "text": "I want to say see you later",
-    "label": "bye"
-  },
-  {
-    "text": "see you later right now",
-    "label": "bye"
-  },
-  {
-    "text": "can we start with see you later",
-    "label": "bye"
-  },
-  {
-    "text": "talk to you soon",
-    "label": "bye"
-  },
-  {
-    "text": "please talk to you soon",
-    "label": "bye"
-  },
-  {
-    "text": "talk to you soon please",
-    "label": "bye"
-  },
-  {
-    "text": "assistant, talk to you soon",
-    "label": "bye"
-  },
-  {
-    "text": "could you respond to: talk to you soon",
-    "label": "bye"
-  },
-  {
-    "text": "I want to say talk to you soon",
-    "label": "bye"
-  },
-  {
-    "text": "talk to you soon right now",
-    "label": "bye"
-  },
-  {
-    "text": "can we start with talk to you soon",
-    "label": "bye"
-  },
-  {
-    "text": "bye for now",
-    "label": "bye"
-  },
-  {
-    "text": "please bye for now",
-    "label": "bye"
-  },
-  {
-    "text": "bye for now please",
-    "label": "bye"
-  },
-  {
-    "text": "assistant, bye for now",
-    "label": "bye"
-  },
-  {
-    "text": "could you respond to: bye for now",
-    "label": "bye"
-  },
-  {
-    "text": "I want to say bye for now",
-    "label": "bye"
-  },
-  {
-    "text": "bye for now right now",
-    "label": "bye"
-  },
-  {
-    "text": "can we start with bye for now",
-    "label": "bye"
-  },
-  {
-    "text": "catch you later",
-    "label": "bye"
-  },
-  {
-    "text": "please catch you later",
-    "label": "bye"
-  },
-  {
-    "text": "catch you later please",
-    "label": "bye"
-  },
-  {
-    "text": "assistant, catch you later",
-    "label": "bye"
-  },
-  {
-    "text": "could you respond to: catch you later",
-    "label": "bye"
-  },
-  {
-    "text": "I want to say catch you later",
-    "label": "bye"
-  },
-  {
-    "text": "catch you later right now",
-    "label": "bye"
-  },
-  {
-    "text": "can we start with catch you later",
-    "label": "bye"
-  },
-  {
-    "text": "thanks bye",
-    "label": "bye"
-  },
-  {
-    "text": "please thanks bye",
-    "label": "bye"
-  },
-  {
-    "text": "thanks bye please",
-    "label": "bye"
-  },
-  {
-    "text": "assistant, thanks bye",
-    "label": "bye"
-  },
-  {
-    "text": "could you respond to: thanks bye",
-    "label": "bye"
-  },
-  {
-    "text": "I want to say thanks bye",
-    "label": "bye"
-  },
-  {
-    "text": "thanks bye right now",
-    "label": "bye"
-  },
-  {
-    "text": "can we start with thanks bye",
-    "label": "bye"
-  }
+﻿[
+    {
+        "text":  "generate a paragraph on cars",
+        "label":  "paragraph"
+    },
+    {
+        "text":  "write a paragraph about cars",
+        "label":  "paragraph"
+    },
+    {
+        "text":  "create content about cars",
+        "label":  "paragraph"
+    },
+    {
+        "text":  "write something about cars",
+        "label":  "paragraph"
+    },
+    {
+        "text":  "can you write about cars",
+        "label":  "paragraph"
+    },
+    {
+        "text":  "i want a paragraph on cars",
+        "label":  "paragraph"
+    },
+    {
+        "text":  "give me content on cars",
+        "label":  "paragraph"
+    },
+    {
+        "text":  "explain cars in a paragraph",
+        "label":  "paragraph"
+    },
+    {
+        "text":  "write info about vehicles",
+        "label":  "paragraph"
+    },
+    {
+        "text":  "generate paragraph about vehicles",
+        "label":  "paragraph"
+    },
+    {
+        "text":  "write something about artificial intelligence",
+        "label":  "paragraph"
+    },
+    {
+        "text":  "create a paragraph on AI",
+        "label":  "paragraph"
+    },
+    {
+        "text":  "generate content about machine learning",
+        "label":  "paragraph"
+    },
+    {
+        "text":  "write paragraph on deep learning",
+        "label":  "paragraph"
+    },
+    {
+        "text":  "explain artificial intelligence briefly",
+        "label":  "paragraph"
+    },
+    {
+        "text":  "give a paragraph about technology",
+        "label":  "paragraph"
+    },
+    {
+        "text":  "write content on internet",
+        "label":  "paragraph"
+    },
+    {
+        "text":  "create paragraph about programming",
+        "label":  "paragraph"
+    },
+    {
+        "text":  "write something on coding",
+        "label":  "paragraph"
+    },
+    {
+        "text":  "generate paragraph about software development",
+        "label":  "paragraph"
+    },
+    {
+        "text":  "write a paragraph about education",
+        "label":  "paragraph"
+    },
+    {
+        "text":  "generate content on health",
+        "label":  "paragraph"
+    },
+    {
+        "text":  "write about fitness",
+        "label":  "paragraph"
+    },
+    {
+        "text":  "create a paragraph on sports",
+        "label":  "paragraph"
+    },
+    {
+        "text":  "write content about environment",
+        "label":  "paragraph"
+    },
+    {
+        "text":  "generate paragraph about climate change",
+        "label":  "paragraph"
+    },
+    {
+        "text":  "explain economy in a paragraph",
+        "label":  "paragraph"
+    },
+    {
+        "text":  "write about startups",
+        "label":  "paragraph"
+    },
+    {
+        "text":  "create content on space",
+        "label":  "paragraph"
+    },
+    {
+        "text":  "write paragraph about science",
+        "label":  "paragraph"
+    },
+    {
+        "text":  "please generate a paragraph on cars",
+        "label":  "paragraph"
+    },
+    {
+        "text":  "can you write a paragraph about cars",
+        "label":  "paragraph"
+    },
+    {
+        "text":  "could you create content about cars",
+        "label":  "paragraph"
+    },
+    {
+        "text":  "I need you to write something about cars",
+        "label":  "paragraph"
+    },
+    {
+        "text":  "can you write about cars",
+        "label":  "paragraph"
+    },
+    {
+        "text":  "please i want a paragraph on cars please",
+        "label":  "paragraph"
+    },
+    {
+        "text":  "can you give me content on cars please",
+        "label":  "paragraph"
+    },
+    {
+        "text":  "could you explain cars in a paragraph please",
+        "label":  "paragraph"
+    },
+    {
+        "text":  "I need you to write info about vehicles please",
+        "label":  "paragraph"
+    },
+    {
+        "text":  "generate paragraph about vehicles please",
+        "label":  "paragraph"
+    },
+    {
+        "text":  "please write something about artificial intelligence for me",
+        "label":  "paragraph"
+    },
+    {
+        "text":  "can you create a paragraph on AI for me",
+        "label":  "paragraph"
+    },
+    {
+        "text":  "could you generate content about machine learning for me",
+        "label":  "paragraph"
+    },
+    {
+        "text":  "I need you to write paragraph on deep learning for me",
+        "label":  "paragraph"
+    },
+    {
+        "text":  "explain artificial intelligence briefly for me",
+        "label":  "paragraph"
+    },
+    {
+        "text":  "please give a paragraph about technology right now",
+        "label":  "paragraph"
+    },
+    {
+        "text":  "can you write content on internet right now",
+        "label":  "paragraph"
+    },
+    {
+        "text":  "could you create paragraph about programming right now",
+        "label":  "paragraph"
+    },
+    {
+        "text":  "I need you to write something on coding right now",
+        "label":  "paragraph"
+    },
+    {
+        "text":  "generate paragraph about software development right now",
+        "label":  "paragraph"
+    },
+    {
+        "text":  "write a formal message to manager",
+        "label":  "formal"
+    },
+    {
+        "text":  "send a formal email to boss",
+        "label":  "formal"
+    },
+    {
+        "text":  "compose a professional message",
+        "label":  "formal"
+    },
+    {
+        "text":  "write a formal request email",
+        "label":  "formal"
+    },
+    {
+        "text":  "generate a formal message to HR",
+        "label":  "formal"
+    },
+    {
+        "text":  "write a professional email to team lead",
+        "label":  "formal"
+    },
+    {
+        "text":  "send a formal request to admin",
+        "label":  "formal"
+    },
+    {
+        "text":  "compose a formal message to client",
+        "label":  "formal"
+    },
+    {
+        "text":  "write an official email",
+        "label":  "formal"
+    },
+    {
+        "text":  "generate professional message",
+        "label":  "formal"
+    },
+    {
+        "text":  "write a formal message to user to grant access",
+        "label":  "formal"
+    },
+    {
+        "text":  "send a professional request to give file access",
+        "label":  "formal"
+    },
+    {
+        "text":  "compose a formal email requesting access",
+        "label":  "formal"
+    },
+    {
+        "text":  "write a message to allow access to files",
+        "label":  "formal"
+    },
+    {
+        "text":  "generate email asking for permission",
+        "label":  "formal"
+    },
+    {
+        "text":  "write formal request to share documents",
+        "label":  "formal"
+    },
+    {
+        "text":  "compose message for approval request",
+        "label":  "formal"
+    },
+    {
+        "text":  "send formal mail for access rights",
+        "label":  "formal"
+    },
+    {
+        "text":  "write official request for data access",
+        "label":  "formal"
+    },
+    {
+        "text":  "generate formal message for file permission",
+        "label":  "formal"
+    },
+    {
+        "text":  "i need a formal mail for leave",
+        "label":  "formal"
+    },
+    {
+        "text":  "write email to boss for leave",
+        "label":  "formal"
+    },
+    {
+        "text":  "can you draft a formal message",
+        "label":  "formal"
+    },
+    {
+        "text":  "write a professional mail for request",
+        "label":  "formal"
+    },
+    {
+        "text":  "i want to send a formal email",
+        "label":  "formal"
+    },
+    {
+        "text":  "create official email for access",
+        "label":  "formal"
+    },
+    {
+        "text":  "generate a business email",
+        "label":  "formal"
+    },
+    {
+        "text":  "write a formal message for approval",
+        "label":  "formal"
+    },
+    {
+        "text":  "compose an email to request permission",
+        "label":  "formal"
+    },
+    {
+        "text":  "draft a formal email",
+        "label":  "formal"
+    },
+    {
+        "text":  "please write a formal message to manager",
+        "label":  "formal"
+    },
+    {
+        "text":  "can you send a formal email to boss",
+        "label":  "formal"
+    },
+    {
+        "text":  "could you compose a professional message",
+        "label":  "formal"
+    },
+    {
+        "text":  "I need you to write a formal request email",
+        "label":  "formal"
+    },
+    {
+        "text":  "generate a formal message to HR",
+        "label":  "formal"
+    },
+    {
+        "text":  "please write a professional email to team lead please",
+        "label":  "formal"
+    },
+    {
+        "text":  "can you send a formal request to admin please",
+        "label":  "formal"
+    },
+    {
+        "text":  "could you compose a formal message to client please",
+        "label":  "formal"
+    },
+    {
+        "text":  "I need you to write an official email please",
+        "label":  "formal"
+    },
+    {
+        "text":  "generate professional message please",
+        "label":  "formal"
+    },
+    {
+        "text":  "please write a formal message to user to grant access for me",
+        "label":  "formal"
+    },
+    {
+        "text":  "can you send a professional request to give file access for me",
+        "label":  "formal"
+    },
+    {
+        "text":  "could you compose a formal email requesting access for me",
+        "label":  "formal"
+    },
+    {
+        "text":  "I need you to write a message to allow access to files for me",
+        "label":  "formal"
+    },
+    {
+        "text":  "generate email asking for permission for me",
+        "label":  "formal"
+    },
+    {
+        "text":  "please write formal request to share documents right now",
+        "label":  "formal"
+    },
+    {
+        "text":  "can you compose message for approval request right now",
+        "label":  "formal"
+    },
+    {
+        "text":  "could you send formal mail for access rights right now",
+        "label":  "formal"
+    },
+    {
+        "text":  "I need you to write official request for data access right now",
+        "label":  "formal"
+    },
+    {
+        "text":  "generate formal message for file permission right now",
+        "label":  "formal"
+    },
+    {
+        "text":  "hello there",
+        "label":  "greeting"
+    },
+    {
+        "text":  "hello",
+        "label":  "greeting"
+    },
+    {
+        "text":  "hi there",
+        "label":  "greeting"
+    },
+    {
+        "text":  "hey there",
+        "label":  "greeting"
+    },
+    {
+        "text":  "good morning",
+        "label":  "greeting"
+    },
+    {
+        "text":  "good afternoon",
+        "label":  "greeting"
+    },
+    {
+        "text":  "good evening",
+        "label":  "greeting"
+    },
+    {
+        "text":  "hi assistant",
+        "label":  "greeting"
+    },
+    {
+        "text":  "hello chatbot",
+        "label":  "greeting"
+    },
+    {
+        "text":  "nice to meet you",
+        "label":  "greeting"
+    },
+    {
+        "text":  "please hi",
+        "label":  "greeting"
+    },
+    {
+        "text":  "can you hello",
+        "label":  "greeting"
+    },
+    {
+        "text":  "could you hey",
+        "label":  "greeting"
+    },
+    {
+        "text":  "I need you to hey there",
+        "label":  "greeting"
+    },
+    {
+        "text":  "good morning",
+        "label":  "greeting"
+    },
+    {
+        "text":  "please good evening please",
+        "label":  "greeting"
+    },
+    {
+        "text":  "can you hi bot please",
+        "label":  "greeting"
+    },
+    {
+        "text":  "could you hello assistant please",
+        "label":  "greeting"
+    },
+    {
+        "text":  "I need you to hey how are you please",
+        "label":  "greeting"
+    },
+    {
+        "text":  "hello how\u0027s it going please",
+        "label":  "greeting"
+    },
+    {
+        "text":  "please hi for me",
+        "label":  "greeting"
+    },
+    {
+        "text":  "can you hello for me",
+        "label":  "greeting"
+    },
+    {
+        "text":  "could you hey for me",
+        "label":  "greeting"
+    },
+    {
+        "text":  "I need you to hey there for me",
+        "label":  "greeting"
+    },
+    {
+        "text":  "good morning for me",
+        "label":  "greeting"
+    },
+    {
+        "text":  "please good evening right now",
+        "label":  "greeting"
+    },
+    {
+        "text":  "can you hi bot right now",
+        "label":  "greeting"
+    },
+    {
+        "text":  "could you hello assistant right now",
+        "label":  "greeting"
+    },
+    {
+        "text":  "I need you to hey how are you right now",
+        "label":  "greeting"
+    },
+    {
+        "text":  "hello how\u0027s it going right now",
+        "label":  "greeting"
+    },
+    {
+        "text":  "please hi thanks",
+        "label":  "greeting"
+    },
+    {
+        "text":  "can you hello thanks",
+        "label":  "greeting"
+    },
+    {
+        "text":  "could you hey thanks",
+        "label":  "greeting"
+    },
+    {
+        "text":  "I need you to hey there thanks",
+        "label":  "greeting"
+    },
+    {
+        "text":  "good morning thanks",
+        "label":  "greeting"
+    },
+    {
+        "text":  "please good evening",
+        "label":  "greeting"
+    },
+    {
+        "text":  "can you hi bot",
+        "label":  "greeting"
+    },
+    {
+        "text":  "could you hello assistant",
+        "label":  "greeting"
+    },
+    {
+        "text":  "I need you to hey how are you",
+        "label":  "greeting"
+    },
+    {
+        "text":  "hello how\u0027s it going",
+        "label":  "greeting"
+    },
+    {
+        "text":  "please hi please",
+        "label":  "greeting"
+    },
+    {
+        "text":  "can you hello please",
+        "label":  "greeting"
+    },
+    {
+        "text":  "could you hey please",
+        "label":  "greeting"
+    },
+    {
+        "text":  "I need you to hey there please",
+        "label":  "greeting"
+    },
+    {
+        "text":  "good morning please",
+        "label":  "greeting"
+    },
+    {
+        "text":  "please good evening for me",
+        "label":  "greeting"
+    },
+    {
+        "text":  "can you hi bot for me",
+        "label":  "greeting"
+    },
+    {
+        "text":  "could you hello assistant for me",
+        "label":  "greeting"
+    },
+    {
+        "text":  "I need you to hey how are you for me",
+        "label":  "greeting"
+    },
+    {
+        "text":  "hello how\u0027s it going for me",
+        "label":  "greeting"
+    },
+    {
+        "text":  "what can you do",
+        "label":  "help"
+    },
+    {
+        "text":  "how can you help me",
+        "label":  "help"
+    },
+    {
+        "text":  "show me what you can do",
+        "label":  "help"
+    },
+    {
+        "text":  "what are your capabilities",
+        "label":  "help"
+    },
+    {
+        "text":  "help me use this chatbot",
+        "label":  "help"
+    },
+    {
+        "text":  "what kinds of requests do you support",
+        "label":  "help"
+    },
+    {
+        "text":  "tell me how this works",
+        "label":  "help"
+    },
+    {
+        "text":  "I need help using the assistant",
+        "label":  "help"
+    },
+    {
+        "text":  "show available features",
+        "label":  "help"
+    },
+    {
+        "text":  "what can I ask you",
+        "label":  "help"
+    },
+    {
+        "text":  "please i need help",
+        "label":  "help"
+    },
+    {
+        "text":  "can you can you help me",
+        "label":  "help"
+    },
+    {
+        "text":  "could you i need assistance",
+        "label":  "help"
+    },
+    {
+        "text":  "I need you to help me with something",
+        "label":  "help"
+    },
+    {
+        "text":  "assist me please",
+        "label":  "help"
+    },
+    {
+        "text":  "please i need support please",
+        "label":  "help"
+    },
+    {
+        "text":  "can you please help me out please",
+        "label":  "help"
+    },
+    {
+        "text":  "could you can you assist please",
+        "label":  "help"
+    },
+    {
+        "text":  "I need you to help required urgently please",
+        "label":  "help"
+    },
+    {
+        "text":  "i need some guidance please",
+        "label":  "help"
+    },
+    {
+        "text":  "please i need help for me",
+        "label":  "help"
+    },
+    {
+        "text":  "can you can you help me for me",
+        "label":  "help"
+    },
+    {
+        "text":  "could you i need assistance for me",
+        "label":  "help"
+    },
+    {
+        "text":  "I need you to help me with something for me",
+        "label":  "help"
+    },
+    {
+        "text":  "assist me please for me",
+        "label":  "help"
+    },
+    {
+        "text":  "please i need support right now",
+        "label":  "help"
+    },
+    {
+        "text":  "can you please help me out right now",
+        "label":  "help"
+    },
+    {
+        "text":  "could you can you assist right now",
+        "label":  "help"
+    },
+    {
+        "text":  "I need you to help required urgently right now",
+        "label":  "help"
+    },
+    {
+        "text":  "i need some guidance right now",
+        "label":  "help"
+    },
+    {
+        "text":  "please i need help thanks",
+        "label":  "help"
+    },
+    {
+        "text":  "can you can you help me thanks",
+        "label":  "help"
+    },
+    {
+        "text":  "could you i need assistance thanks",
+        "label":  "help"
+    },
+    {
+        "text":  "I need you to help me with something thanks",
+        "label":  "help"
+    },
+    {
+        "text":  "assist me please thanks",
+        "label":  "help"
+    },
+    {
+        "text":  "please i need support",
+        "label":  "help"
+    },
+    {
+        "text":  "can you please help me out",
+        "label":  "help"
+    },
+    {
+        "text":  "could you can you assist",
+        "label":  "help"
+    },
+    {
+        "text":  "I need you to help required urgently",
+        "label":  "help"
+    },
+    {
+        "text":  "i need some guidance",
+        "label":  "help"
+    },
+    {
+        "text":  "please i need help please",
+        "label":  "help"
+    },
+    {
+        "text":  "can you can you help me please",
+        "label":  "help"
+    },
+    {
+        "text":  "could you i need assistance please",
+        "label":  "help"
+    },
+    {
+        "text":  "I need you to help me with something please",
+        "label":  "help"
+    },
+    {
+        "text":  "assist me please please",
+        "label":  "help"
+    },
+    {
+        "text":  "please i need support for me",
+        "label":  "help"
+    },
+    {
+        "text":  "can you please help me out for me",
+        "label":  "help"
+    },
+    {
+        "text":  "could you can you assist for me",
+        "label":  "help"
+    },
+    {
+        "text":  "I need you to help required urgently for me",
+        "label":  "help"
+    },
+    {
+        "text":  "i need some guidance for me",
+        "label":  "help"
+    },
+    {
+        "text":  "i have an error",
+        "label":  "error"
+    },
+    {
+        "text":  "there is a bug",
+        "label":  "error"
+    },
+    {
+        "text":  "something is wrong",
+        "label":  "error"
+    },
+    {
+        "text":  "i am facing an issue",
+        "label":  "error"
+    },
+    {
+        "text":  "error in my code",
+        "label":  "error"
+    },
+    {
+        "text":  "bug in application",
+        "label":  "error"
+    },
+    {
+        "text":  "problem in system",
+        "label":  "error"
+    },
+    {
+        "text":  "code is not working",
+        "label":  "error"
+    },
+    {
+        "text":  "there is a problem",
+        "label":  "error"
+    },
+    {
+        "text":  "i found a bug",
+        "label":  "error"
+    },
+    {
+        "text":  "please i have an error",
+        "label":  "error"
+    },
+    {
+        "text":  "can you there is a bug",
+        "label":  "error"
+    },
+    {
+        "text":  "could you something is wrong",
+        "label":  "error"
+    },
+    {
+        "text":  "I need you to i am facing an issue",
+        "label":  "error"
+    },
+    {
+        "text":  "error in my code",
+        "label":  "error"
+    },
+    {
+        "text":  "please bug in application please",
+        "label":  "error"
+    },
+    {
+        "text":  "can you problem in system please",
+        "label":  "error"
+    },
+    {
+        "text":  "could you code is not working please",
+        "label":  "error"
+    },
+    {
+        "text":  "I need you to there is a problem please",
+        "label":  "error"
+    },
+    {
+        "text":  "i found a bug please",
+        "label":  "error"
+    },
+    {
+        "text":  "please i have an error for me",
+        "label":  "error"
+    },
+    {
+        "text":  "can you there is a bug for me",
+        "label":  "error"
+    },
+    {
+        "text":  "could you something is wrong for me",
+        "label":  "error"
+    },
+    {
+        "text":  "I need you to i am facing an issue for me",
+        "label":  "error"
+    },
+    {
+        "text":  "error in my code for me",
+        "label":  "error"
+    },
+    {
+        "text":  "please bug in application right now",
+        "label":  "error"
+    },
+    {
+        "text":  "can you problem in system right now",
+        "label":  "error"
+    },
+    {
+        "text":  "could you code is not working right now",
+        "label":  "error"
+    },
+    {
+        "text":  "I need you to there is a problem right now",
+        "label":  "error"
+    },
+    {
+        "text":  "i found a bug right now",
+        "label":  "error"
+    },
+    {
+        "text":  "please i have an error thanks",
+        "label":  "error"
+    },
+    {
+        "text":  "can you there is a bug thanks",
+        "label":  "error"
+    },
+    {
+        "text":  "could you something is wrong thanks",
+        "label":  "error"
+    },
+    {
+        "text":  "I need you to i am facing an issue thanks",
+        "label":  "error"
+    },
+    {
+        "text":  "error in my code thanks",
+        "label":  "error"
+    },
+    {
+        "text":  "please bug in application",
+        "label":  "error"
+    },
+    {
+        "text":  "can you problem in system",
+        "label":  "error"
+    },
+    {
+        "text":  "could you code is not working",
+        "label":  "error"
+    },
+    {
+        "text":  "I need you to there is a problem",
+        "label":  "error"
+    },
+    {
+        "text":  "i found a bug",
+        "label":  "error"
+    },
+    {
+        "text":  "please i have an error please",
+        "label":  "error"
+    },
+    {
+        "text":  "can you there is a bug please",
+        "label":  "error"
+    },
+    {
+        "text":  "could you something is wrong please",
+        "label":  "error"
+    },
+    {
+        "text":  "I need you to i am facing an issue please",
+        "label":  "error"
+    },
+    {
+        "text":  "error in my code please",
+        "label":  "error"
+    },
+    {
+        "text":  "please bug in application for me",
+        "label":  "error"
+    },
+    {
+        "text":  "can you problem in system for me",
+        "label":  "error"
+    },
+    {
+        "text":  "could you code is not working for me",
+        "label":  "error"
+    },
+    {
+        "text":  "I need you to there is a problem for me",
+        "label":  "error"
+    },
+    {
+        "text":  "i found a bug for me",
+        "label":  "error"
+    },
+    {
+        "text":  "bye",
+        "label":  "bye"
+    },
+    {
+        "text":  "goodbye",
+        "label":  "bye"
+    },
+    {
+        "text":  "see you later",
+        "label":  "bye"
+    },
+    {
+        "text":  "talk to you later",
+        "label":  "bye"
+    },
+    {
+        "text":  "catch you later",
+        "label":  "bye"
+    },
+    {
+        "text":  "bye bye",
+        "label":  "bye"
+    },
+    {
+        "text":  "see you soon",
+        "label":  "bye"
+    },
+    {
+        "text":  "ok bye",
+        "label":  "bye"
+    },
+    {
+        "text":  "leaving now",
+        "label":  "bye"
+    },
+    {
+        "text":  "i will talk later",
+        "label":  "bye"
+    },
+    {
+        "text":  "please bye",
+        "label":  "bye"
+    },
+    {
+        "text":  "can you goodbye",
+        "label":  "bye"
+    },
+    {
+        "text":  "could you see you later",
+        "label":  "bye"
+    },
+    {
+        "text":  "I need you to talk to you later",
+        "label":  "bye"
+    },
+    {
+        "text":  "catch you later",
+        "label":  "bye"
+    },
+    {
+        "text":  "please bye bye please",
+        "label":  "bye"
+    },
+    {
+        "text":  "can you see you soon please",
+        "label":  "bye"
+    },
+    {
+        "text":  "could you ok bye please",
+        "label":  "bye"
+    },
+    {
+        "text":  "I need you to leaving now please",
+        "label":  "bye"
+    },
+    {
+        "text":  "i will talk later please",
+        "label":  "bye"
+    },
+    {
+        "text":  "please bye for me",
+        "label":  "bye"
+    },
+    {
+        "text":  "can you goodbye for me",
+        "label":  "bye"
+    },
+    {
+        "text":  "could you see you later for me",
+        "label":  "bye"
+    },
+    {
+        "text":  "I need you to talk to you later for me",
+        "label":  "bye"
+    },
+    {
+        "text":  "catch you later for me",
+        "label":  "bye"
+    },
+    {
+        "text":  "please bye bye right now",
+        "label":  "bye"
+    },
+    {
+        "text":  "can you see you soon right now",
+        "label":  "bye"
+    },
+    {
+        "text":  "could you ok bye right now",
+        "label":  "bye"
+    },
+    {
+        "text":  "I need you to leaving now right now",
+        "label":  "bye"
+    },
+    {
+        "text":  "i will talk later right now",
+        "label":  "bye"
+    },
+    {
+        "text":  "please bye thanks",
+        "label":  "bye"
+    },
+    {
+        "text":  "can you goodbye thanks",
+        "label":  "bye"
+    },
+    {
+        "text":  "could you see you later thanks",
+        "label":  "bye"
+    },
+    {
+        "text":  "I need you to talk to you later thanks",
+        "label":  "bye"
+    },
+    {
+        "text":  "catch you later thanks",
+        "label":  "bye"
+    },
+    {
+        "text":  "please bye bye",
+        "label":  "bye"
+    },
+    {
+        "text":  "can you see you soon",
+        "label":  "bye"
+    },
+    {
+        "text":  "could you ok bye",
+        "label":  "bye"
+    },
+    {
+        "text":  "I need you to leaving now",
+        "label":  "bye"
+    },
+    {
+        "text":  "i will talk later",
+        "label":  "bye"
+    },
+    {
+        "text":  "please bye please",
+        "label":  "bye"
+    },
+    {
+        "text":  "can you goodbye please",
+        "label":  "bye"
+    },
+    {
+        "text":  "could you see you later please",
+        "label":  "bye"
+    },
+    {
+        "text":  "I need you to talk to you later please",
+        "label":  "bye"
+    },
+    {
+        "text":  "catch you later please",
+        "label":  "bye"
+    },
+    {
+        "text":  "please bye bye for me",
+        "label":  "bye"
+    },
+    {
+        "text":  "can you see you soon for me",
+        "label":  "bye"
+    },
+    {
+        "text":  "could you ok bye for me",
+        "label":  "bye"
+    },
+    {
+        "text":  "I need you to leaving now for me",
+        "label":  "bye"
+    },
+    {
+        "text":  "i will talk later for me",
+        "label":  "bye"
+    },
+    {
+        "text":  "book a meeting about planning tomorrow at 3pm",
+        "label":  "book_meeting"
+    },
+    {
+        "text":  "schedule a meeting regarding the launch next Monday",
+        "label":  "book_meeting"
+    },
+    {
+        "text":  "set up a call about sales in 2 hours",
+        "label":  "book_meeting"
+    },
+    {
+        "text":  "arrange a meeting regarding hiring today at 4pm",
+        "label":  "book_meeting"
+    },
+    {
+        "text":  "create a calendar meeting about design tomorrow",
+        "label":  "book_meeting"
+    },
+    {
+        "text":  "book time to discuss the budget next Friday at 10am",
+        "label":  "book_meeting"
+    },
+    {
+        "text":  "schedule a call regarding support on 2026-08-10 at 2pm",
+        "label":  "book_meeting"
+    },
+    {
+        "text":  "set a meeting about the roadmap today",
+        "label":  "book_meeting"
+    },
+    {
+        "text":  "arrange a discussion regarding security next Tuesday",
+        "label":  "book_meeting"
+    },
+    {
+        "text":  "create an appointment about onboarding in 3 days",
+        "label":  "book_meeting"
+    },
+    {
+        "text":  "book a meeting for tomorrow at 9am",
+        "label":  "book_meeting"
+    },
+    {
+        "text":  "schedule some time about project status",
+        "label":  "book_meeting"
+    },
+    {
+        "text":  "put a planning meeting on my calendar",
+        "label":  "book_meeting"
+    },
+    {
+        "text":  "arrange a call next Wednesday at 1pm",
+        "label":  "book_meeting"
+    },
+    {
+        "text":  "set up a meeting regarding quarterly results",
+        "label":  "book_meeting"
+    },
+    {
+        "text":  "create a meeting about product feedback tomorrow at 11am",
+        "label":  "book_meeting"
+    },
+    {
+        "text":  "book a team sync next Monday at 2pm",
+        "label":  "book_meeting"
+    },
+    {
+        "text":  "schedule a conversation about recruiting today at 5pm",
+        "label":  "book_meeting"
+    },
+    {
+        "text":  "add a calendar event about the audit in 4 hours",
+        "label":  "book_meeting"
+    },
+    {
+        "text":  "organize a meeting regarding deployment next Thursday",
+        "label":  "book_meeting"
+    },
+    {
+        "text":  "please book a meeting about planning tomorrow at 3pm",
+        "label":  "book_meeting"
+    },
+    {
+        "text":  "please schedule a meeting regarding the launch next Monday",
+        "label":  "book_meeting"
+    },
+    {
+        "text":  "please set up a call about sales in 2 hours",
+        "label":  "book_meeting"
+    },
+    {
+        "text":  "please arrange a meeting regarding hiring today at 4pm",
+        "label":  "book_meeting"
+    },
+    {
+        "text":  "please create a calendar meeting about design tomorrow",
+        "label":  "book_meeting"
+    },
+    {
+        "text":  "please book time to discuss the budget next Friday at 10am",
+        "label":  "book_meeting"
+    },
+    {
+        "text":  "please schedule a call regarding support on 2026-08-10 at 2pm",
+        "label":  "book_meeting"
+    },
+    {
+        "text":  "please set a meeting about the roadmap today",
+        "label":  "book_meeting"
+    },
+    {
+        "text":  "please arrange a discussion regarding security next Tuesday",
+        "label":  "book_meeting"
+    },
+    {
+        "text":  "please create an appointment about onboarding in 3 days",
+        "label":  "book_meeting"
+    },
+    {
+        "text":  "please book a meeting for tomorrow at 9am",
+        "label":  "book_meeting"
+    },
+    {
+        "text":  "please schedule some time about project status",
+        "label":  "book_meeting"
+    },
+    {
+        "text":  "please put a planning meeting on my calendar",
+        "label":  "book_meeting"
+    },
+    {
+        "text":  "please arrange a call next Wednesday at 1pm",
+        "label":  "book_meeting"
+    },
+    {
+        "text":  "please set up a meeting regarding quarterly results",
+        "label":  "book_meeting"
+    },
+    {
+        "text":  "please create a meeting about product feedback tomorrow at 11am",
+        "label":  "book_meeting"
+    },
+    {
+        "text":  "please book a team sync next Monday at 2pm",
+        "label":  "book_meeting"
+    },
+    {
+        "text":  "please schedule a conversation about recruiting today at 5pm",
+        "label":  "book_meeting"
+    },
+    {
+        "text":  "please add a calendar event about the audit in 4 hours",
+        "label":  "book_meeting"
+    },
+    {
+        "text":  "please organize a meeting regarding deployment next Thursday",
+        "label":  "book_meeting"
+    },
+    {
+        "text":  "can you book a meeting about planning tomorrow at 3pm",
+        "label":  "book_meeting"
+    },
+    {
+        "text":  "can you schedule a meeting regarding the launch next Monday",
+        "label":  "book_meeting"
+    },
+    {
+        "text":  "can you set up a call about sales in 2 hours",
+        "label":  "book_meeting"
+    },
+    {
+        "text":  "can you arrange a meeting regarding hiring today at 4pm",
+        "label":  "book_meeting"
+    },
+    {
+        "text":  "can you create a calendar meeting about design tomorrow",
+        "label":  "book_meeting"
+    },
+    {
+        "text":  "can you book time to discuss the budget next Friday at 10am",
+        "label":  "book_meeting"
+    },
+    {
+        "text":  "can you schedule a call regarding support on 2026-08-10 at 2pm",
+        "label":  "book_meeting"
+    },
+    {
+        "text":  "can you set a meeting about the roadmap today",
+        "label":  "book_meeting"
+    },
+    {
+        "text":  "can you arrange a discussion regarding security next Tuesday",
+        "label":  "book_meeting"
+    },
+    {
+        "text":  "can you create an appointment about onboarding in 3 days",
+        "label":  "book_meeting"
+    },
+    {
+        "text":  "search for current web security guidance",
+        "label":  "web_search"
+    },
+    {
+        "text":  "look up python documentation",
+        "label":  "web_search"
+    },
+    {
+        "text":  "find information about renewable energy",
+        "label":  "web_search"
+    },
+    {
+        "text":  "search the web for FastAPI examples",
+        "label":  "web_search"
+    },
+    {
+        "text":  "web search for database indexing",
+        "label":  "web_search"
+    },
+    {
+        "text":  "look up recent technology news",
+        "label":  "web_search"
+    },
+    {
+        "text":  "find information about climate research",
+        "label":  "web_search"
+    },
+    {
+        "text":  "search for javascript async await",
+        "label":  "web_search"
+    },
+    {
+        "text":  "please search for REST API conventions",
+        "label":  "web_search"
+    },
+    {
+        "text":  "look up SQLAlchemy documentation",
+        "label":  "web_search"
+    },
+    {
+        "text":  "find information about electric vehicles",
+        "label":  "web_search"
+    },
+    {
+        "text":  "search the web for recursion tutorials",
+        "label":  "web_search"
+    },
+    {
+        "text":  "web search for cybersecurity practices",
+        "label":  "web_search"
+    },
+    {
+        "text":  "look up cloud computing concepts",
+        "label":  "web_search"
+    },
+    {
+        "text":  "find information about machine learning",
+        "label":  "web_search"
+    },
+    {
+        "text":  "search for browser accessibility guidance",
+        "label":  "web_search"
+    },
+    {
+        "text":  "please look up GraphQL documentation",
+        "label":  "web_search"
+    },
+    {
+        "text":  "find information about solar energy",
+        "label":  "web_search"
+    },
+    {
+        "text":  "search the web for Python exception handling",
+        "label":  "web_search"
+    },
+    {
+        "text":  "look up software testing strategies",
+        "label":  "web_search"
+    },
+    {
+        "text":  "please search for current web security guidance",
+        "label":  "web_search"
+    },
+    {
+        "text":  "please look up python documentation",
+        "label":  "web_search"
+    },
+    {
+        "text":  "please find information about renewable energy",
+        "label":  "web_search"
+    },
+    {
+        "text":  "please search the web for FastAPI examples",
+        "label":  "web_search"
+    },
+    {
+        "text":  "please web search for database indexing",
+        "label":  "web_search"
+    },
+    {
+        "text":  "please look up recent technology news",
+        "label":  "web_search"
+    },
+    {
+        "text":  "please find information about climate research",
+        "label":  "web_search"
+    },
+    {
+        "text":  "please search for javascript async await",
+        "label":  "web_search"
+    },
+    {
+        "text":  "please please search for REST API conventions",
+        "label":  "web_search"
+    },
+    {
+        "text":  "please look up SQLAlchemy documentation",
+        "label":  "web_search"
+    },
+    {
+        "text":  "please find information about electric vehicles",
+        "label":  "web_search"
+    },
+    {
+        "text":  "please search the web for recursion tutorials",
+        "label":  "web_search"
+    },
+    {
+        "text":  "please web search for cybersecurity practices",
+        "label":  "web_search"
+    },
+    {
+        "text":  "please look up cloud computing concepts",
+        "label":  "web_search"
+    },
+    {
+        "text":  "please find information about machine learning",
+        "label":  "web_search"
+    },
+    {
+        "text":  "please search for browser accessibility guidance",
+        "label":  "web_search"
+    },
+    {
+        "text":  "please please look up GraphQL documentation",
+        "label":  "web_search"
+    },
+    {
+        "text":  "please find information about solar energy",
+        "label":  "web_search"
+    },
+    {
+        "text":  "please search the web for Python exception handling",
+        "label":  "web_search"
+    },
+    {
+        "text":  "please look up software testing strategies",
+        "label":  "web_search"
+    },
+    {
+        "text":  "can you search for current web security guidance",
+        "label":  "web_search"
+    },
+    {
+        "text":  "can you look up python documentation",
+        "label":  "web_search"
+    },
+    {
+        "text":  "can you find information about renewable energy",
+        "label":  "web_search"
+    },
+    {
+        "text":  "can you search the web for FastAPI examples",
+        "label":  "web_search"
+    },
+    {
+        "text":  "can you web search for database indexing",
+        "label":  "web_search"
+    },
+    {
+        "text":  "can you look up recent technology news",
+        "label":  "web_search"
+    },
+    {
+        "text":  "can you find information about climate research",
+        "label":  "web_search"
+    },
+    {
+        "text":  "can you search for javascript async await",
+        "label":  "web_search"
+    },
+    {
+        "text":  "can you please search for REST API conventions",
+        "label":  "web_search"
+    },
+    {
+        "text":  "can you look up SQLAlchemy documentation",
+        "label":  "web_search"
+    },
+    {
+        "text":  "how do I fix this python error",
+        "label":  "code_help"
+    },
+    {
+        "text":  "explain this javascript function",
+        "label":  "code_help"
+    },
+    {
+        "text":  "what is a for loop",
+        "label":  "code_help"
+    },
+    {
+        "text":  "show me a list comprehension",
+        "label":  "code_help"
+    },
+    {
+        "text":  "how does recursion work",
+        "label":  "code_help"
+    },
+    {
+        "text":  "explain async await",
+        "label":  "code_help"
+    },
+    {
+        "text":  "help me debug my code",
+        "label":  "code_help"
+    },
+    {
+        "text":  "what is the difference between REST and GraphQL",
+        "label":  "code_help"
+    },
+    {
+        "text":  "why does this function fail",
+        "label":  "code_help"
+    },
+    {
+        "text":  "teach me python exceptions",
+        "label":  "code_help"
+    },
+    {
+        "text":  "explain a while loop",
+        "label":  "code_help"
+    },
+    {
+        "text":  "how do APIs work",
+        "label":  "code_help"
+    },
+    {
+        "text":  "help with a SQL query",
+        "label":  "code_help"
+    },
+    {
+        "text":  "what does this code do",
+        "label":  "code_help"
+    },
+    {
+        "text":  "explain javascript arrow functions",
+        "label":  "code_help"
+    },
+    {
+        "text":  "how should I handle errors in code",
+        "label":  "code_help"
+    },
+    {
+        "text":  "show a recursion example",
+        "label":  "code_help"
+    },
+    {
+        "text":  "what is asyncio",
+        "label":  "code_help"
+    },
+    {
+        "text":  "explain database transactions",
+        "label":  "code_help"
+    },
+    {
+        "text":  "can you help with programming",
+        "label":  "code_help"
+    },
+    {
+        "text":  "please how do I fix this python error",
+        "label":  "code_help"
+    },
+    {
+        "text":  "please explain this javascript function",
+        "label":  "code_help"
+    },
+    {
+        "text":  "please what is a for loop",
+        "label":  "code_help"
+    },
+    {
+        "text":  "please show me a list comprehension",
+        "label":  "code_help"
+    },
+    {
+        "text":  "please how does recursion work",
+        "label":  "code_help"
+    },
+    {
+        "text":  "please explain async await",
+        "label":  "code_help"
+    },
+    {
+        "text":  "please help me debug my code",
+        "label":  "code_help"
+    },
+    {
+        "text":  "please what is the difference between REST and GraphQL",
+        "label":  "code_help"
+    },
+    {
+        "text":  "please why does this function fail",
+        "label":  "code_help"
+    },
+    {
+        "text":  "please teach me python exceptions",
+        "label":  "code_help"
+    },
+    {
+        "text":  "please explain a while loop",
+        "label":  "code_help"
+    },
+    {
+        "text":  "please how do APIs work",
+        "label":  "code_help"
+    },
+    {
+        "text":  "please help with a SQL query",
+        "label":  "code_help"
+    },
+    {
+        "text":  "please what does this code do",
+        "label":  "code_help"
+    },
+    {
+        "text":  "please explain javascript arrow functions",
+        "label":  "code_help"
+    },
+    {
+        "text":  "please how should I handle errors in code",
+        "label":  "code_help"
+    },
+    {
+        "text":  "please show a recursion example",
+        "label":  "code_help"
+    },
+    {
+        "text":  "please what is asyncio",
+        "label":  "code_help"
+    },
+    {
+        "text":  "please explain database transactions",
+        "label":  "code_help"
+    },
+    {
+        "text":  "please can you help with programming",
+        "label":  "code_help"
+    },
+    {
+        "text":  "can you how do I fix this python error",
+        "label":  "code_help"
+    },
+    {
+        "text":  "can you explain this javascript function",
+        "label":  "code_help"
+    },
+    {
+        "text":  "can you what is a for loop",
+        "label":  "code_help"
+    },
+    {
+        "text":  "can you show me a list comprehension",
+        "label":  "code_help"
+    },
+    {
+        "text":  "can you how does recursion work",
+        "label":  "code_help"
+    },
+    {
+        "text":  "can you explain async await",
+        "label":  "code_help"
+    },
+    {
+        "text":  "can you help me debug my code",
+        "label":  "code_help"
+    },
+    {
+        "text":  "can you what is the difference between REST and GraphQL",
+        "label":  "code_help"
+    },
+    {
+        "text":  "can you why does this function fail",
+        "label":  "code_help"
+    },
+    {
+        "text":  "can you teach me python exceptions",
+        "label":  "code_help"
+    },
+    {
+        "text": "remind me tomorrow to call the bank",
+        "label": "set_reminder"
+    },
+    {
+        "text": "set a reminder for tomorrow to pay the electricity bill",
+        "label": "set_reminder"
+    },
+    {
+        "text": "remind me tomorrow at 5pm to join the meeting",
+        "label": "set_reminder"
+    },
+    {
+        "text": "can you remind me next monday to submit the report",
+        "label": "set_reminder"
+    },
+    {
+        "text": "remind me next tuesday at 9am to call my doctor",
+        "label": "set_reminder"
+    },
+    {
+        "text": "set a reminder next friday about the project deadline",
+        "label": "set_reminder"
+    },
+    {
+        "text": "remind me in 2 hours to check the oven",
+        "label": "set_reminder"
+    },
+    {
+        "text": "remind me in 30 minutes to take a break",
+        "label": "set_reminder"
+    },
+    {
+        "text": "set a reminder in 3 days to renew my subscription",
+        "label": "set_reminder"
+    },
+    {
+        "text": "please remind me today at 6pm to buy groceries",
+        "label": "set_reminder"
+    },
+    {
+        "text": "remind me today to send the invoice",
+        "label": "set_reminder"
+    },
+    {
+        "text": "create a reminder at 7am to go for a run",
+        "label": "set_reminder"
+    },
+    {
+        "text": "set a reminder at 4:30pm about the client call",
+        "label": "set_reminder"
+    },
+    {
+        "text": "remind me at 10pm that I need to lock the door",
+        "label": "set_reminder"
+    },
+    {
+        "text": "remind me on 2026-08-15 to file my taxes",
+        "label": "set_reminder"
+    },
+    {
+        "text": "set a reminder on 2026-09-01 at 8am to start the migration",
+        "label": "set_reminder"
+    },
+    {
+        "text": "could you remind me tomorrow about the dentist appointment",
+        "label": "set_reminder"
+    },
+    {
+        "text": "I need a reminder next wednesday to water the plants",
+        "label": "set_reminder"
+    },
+    {
+        "text": "please set a reminder in 45 minutes to check the laundry",
+        "label": "set_reminder"
+    },
+    {
+        "text": "make a reminder for next sunday to call my parents",
+        "label": "set_reminder"
+    },
+    {
+        "text": "don't let me forget tomorrow to bring my passport",
+        "label": "set_reminder"
+    },
+    {
+        "text": "alert me in 1 hour to leave for the airport",
+        "label": "set_reminder"
+    },
+    {
+        "text": "set me a reminder today at 3pm to review the proposal",
+        "label": "set_reminder"
+    },
+    {
+        "text": "remind me next saturday about the family dinner",
+        "label": "set_reminder"
+    },
+    {
+        "text": "can I get a reminder at 5pm to clock out",
+        "label": "set_reminder"
+    },
+    {
+        "text": "schedule a reminder tomorrow to email the team",
+        "label": "set_reminder"
+    },
+    {
+        "text": "remind me in 5 days that the trial expires",
+        "label": "set_reminder"
+    },
+    {
+        "text": "please remind me on 2026-12-01 about the rent payment",
+        "label": "set_reminder"
+    },
+    {
+        "text": "set a reminder next thursday at 2pm to prepare slides",
+        "label": "set_reminder"
+    },
+    {
+        "text": "give me a reminder in 10 minutes to turn off the sprinkler",
+        "label": "set_reminder"
+    },
+    {
+        "text": "remind me tomorrow that I promised to follow up",
+        "label": "set_reminder"
+    },
+    {
+        "text": "create a reminder today about submitting my timesheet",
+        "label": "set_reminder"
+    },
+    {
+        "text": "set a reminder at 11:30am to pick up the package",
+        "label": "set_reminder"
+    },
+    {
+        "text": "remind me next monday at 8am about the weekly standup",
+        "label": "set_reminder"
+    },
+    {
+        "text": "I want you to remind me in 6 hours to charge the camera",
+        "label": "set_reminder"
+    },
+    {
+        "text": "add a reminder for tomorrow to cancel the reservation",
+        "label": "set_reminder"
+    },
+    {
+        "text": "find citations for renewable energy",
+        "label": "find_citations"
+    },
+    {
+        "text": "find academic sources about climate change",
+        "label": "find_citations"
+    },
+    {
+        "text": "show me research papers on cybersecurity",
+        "label": "find_citations"
+    },
+    {
+        "text": "give me citations about machine learning",
+        "label": "find_citations"
+    },
+    {
+        "text": "find sources for my essay on pollution",
+        "label": "find_citations"
+    },
+    {
+        "text": "search for papers about solar power",
+        "label": "find_citations"
+    },
+    {
+        "text": "cite studies on remote work productivity",
+        "label": "find_citations"
+    },
+    {
+        "text": "I need academic references for artificial intelligence",
+        "label": "find_citations"
+    },
+    {
+        "text": "locate scholarly articles about public health",
+        "label": "find_citations"
+    },
+    {
+        "text": "find peer reviewed sources on education",
+        "label": "find_citations"
+    },
+    {
+        "text": "get research references about electric vehicles",
+        "label": "find_citations"
+    },
+    {
+        "text": "what papers can I cite about data privacy",
+        "label": "find_citations"
+    },
+    {
+        "text": "find evidence from studies about sleep",
+        "label": "find_citations"
+    },
+    {
+        "text": "provide scholarly citations for economics",
+        "label": "find_citations"
+    },
+    {
+        "text": "look for journal papers on water conservation",
+        "label": "find_citations"
+    },
+    {
+        "text": "find reliable research about social media",
+        "label": "find_citations"
+    },
+    {
+        "text": "show academic papers about mental health",
+        "label": "find_citations"
+    },
+    {
+        "text": "help me source a claim about nutrition",
+        "label": "find_citations"
+    },
+    {
+        "text": "search Semantic Scholar for quantum computing",
+        "label": "find_citations"
+    },
+    {
+        "text": "find a published study on renewable materials",
+        "label": "find_citations"
+    },
+    {
+        "text": "match our schedules for Friday afternoon",
+        "label": "match_schedule"
+    },
+    {
+        "text": "find a time that works next Monday",
+        "label": "match_schedule"
+    },
+    {
+        "text": "compare everyone's availability tomorrow",
+        "label": "match_schedule"
+    },
+    {
+        "text": "when are we all free Friday morning",
+        "label": "match_schedule"
+    },
+    {
+        "text": "match availability for next Tuesday at 3pm",
+        "label": "match_schedule"
+    },
+    {
+        "text": "help us choose between Monday morning and Friday afternoon",
+        "label": "match_schedule"
+    },
+    {
+        "text": "find a common meeting time tomorrow at 5pm",
+        "label": "match_schedule"
+    },
+    {
+        "text": "coordinate our calendars for next week",
+        "label": "match_schedule"
+    },
+    {
+        "text": "check which proposed time works for everyone",
+        "label": "match_schedule"
+    },
+    {
+        "text": "compare the team's available times on 2026-08-15",
+        "label": "match_schedule"
+    },
+    {
+        "text": "schedule match for this afternoon",
+        "label": "match_schedule"
+    },
+    {
+        "text": "work out our shared availability next weekend",
+        "label": "match_schedule"
+    },
+    {
+        "text": "which time option suits all participants",
+        "label": "match_schedule"
+    },
+    {
+        "text": "find overlap in our schedules for Wednesday",
+        "label": "match_schedule"
+    },
+    {
+        "text": "match the group's free time Thursday evening",
+        "label": "match_schedule"
+    },
+    {
+        "text": "can everyone meet tomorrow at 10am",
+        "label": "match_schedule"
+    },
+    {
+        "text": "identify a mutual time next Friday",
+        "label": "match_schedule"
+    },
+    {
+        "text": "compare participant availability this week",
+        "label": "match_schedule"
+    },
+    {
+        "text": "find a shared slot on Monday afternoon",
+        "label": "match_schedule"
+    },
+    {
+        "text": "when can the whole group meet next Wednesday",
+        "label": "match_schedule"
+    }
 ]
